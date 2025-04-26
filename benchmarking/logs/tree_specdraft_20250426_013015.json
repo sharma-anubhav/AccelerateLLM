@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:30:09.987460",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 234,
+    "tree_accepted_tokens": 38,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.273,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College, by"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " a simple majority of the votes"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " cast."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " number of electors for each state is equal to the"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " number of members"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " of the House of Representatives and"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the Senate."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The"
+    }
+  ],
+  "final_output": " elected by the Electoral College, by a simple majority of the votes cast. The number of electors for each state is equal to the number of members of the House of Representatives and the Senate. The"
+}

@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-04-26T01:16:03.141666",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 1735,
+    "tree_accepted_tokens": 115,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 42,
+    "tree_avg_branching_factor": 1.4,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little girl lived"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " in a small village. she"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " was the"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " only the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " child"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of very"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " old father"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " and mother. her"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " parents"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " were not"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " able"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " to work they"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " were"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " very,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " very"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " poor"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". One"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ", the little girl was playing in the the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " yard."
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " She"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " saw"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " a butterfly to"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " a flower."
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " She"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " wanted"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " to help the butterfly, so ran"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " to the flower to help it. But the"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " butterfly"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " was very"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ", very."
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " The butterfly"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " in"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " a very, deep"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " hole"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": ". The girl"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " tried hard"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " to help the butterfly, but she was"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " not able to get the butterfly out of the"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": " hole. The butterfly"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": " was very"
+    }
+  ],
+  "final_output": ", there was a little girl lived in a small village. she was the only the child of very old father and mother. her parents were not able to work they were very, very poor. One day, the little girl was playing in the the yard. She saw a butterfly to a flower. She wanted to help the butterfly, so ran to the flower to help it. But the butterfly was very, very. The butterfly was in a very, deep hole. The girl tried hard to help the butterfly, but she was not able to get the butterfly out of the hole. The butterfly was very"
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:43:19.018360",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 127,
+    "tree_accepted_tokens": 42,
+    "tree_bonus_tokens": 0,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.615,
+    "tokens_generated": 42
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " 100,"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ",000,"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "0,000"
+    }
+  ],
+  "final_output": ", of 100,000,000,000,000,000,000,000,000,000"
+}

@@ -1,0 +1,520 @@
+{
+  "timestamp": "2025-04-26T01:01:42.547233",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 4,
+  "metrics": {
+    "total_iterations": 35,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 109,
+    "corrections_by_target": 12,
+    "tokens_generated": 121,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 95,
+        "proposed": 140
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 14,
+        "proposed": 140
+      }
+    ],
+    "target_generate_calls": 12,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 121,
+    "actual_target_calls": 12,
+    "tokens_saved": 109,
+    "percent_tokens_saved": 90.08
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " elected by the Electoral",
+        "Qwen/Qwen2.5-1.5B": " a man who is"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " elected",
+          "corrected_with": " the"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " head of the executive",
+        "Qwen/Qwen2.5-1.5B": " head of state and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " head of",
+        "Qwen/Qwen2.5-1.5B": " head of state and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " head of government of",
+        "Qwen/Qwen2.5-1.5B": " head of government of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " head",
+          "corrected_with": " the"
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " head of government.",
+        "Qwen/Qwen2.5-1.5B": " head of government of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " head of government",
+        "Qwen/Qwen2.5-1.5B": " head of government of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the United States of",
+        "Qwen/Qwen2.5-1.5B": " the USA. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the United States of",
+        "Qwen/Qwen2.5-1.5B": " the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " America. The president",
+        "Qwen/Qwen2.5-1.5B": " America. The president"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " America. The president",
+        "Qwen/Qwen2.5-1.5B": " America. The president"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is the commander-in",
+        "Qwen/Qwen2.5-1.5B": " is the commander-in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is",
+        "Qwen/Qwen2.5-1.5B": " is"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " the",
+          "corrected_with": " also"
+        }
+      }
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the commander-in-chief",
+        "Qwen/Qwen2.5-1.5B": " the commander-in-chief"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the commander-in-chief",
+        "Qwen/Qwen2.5-1.5B": " the commander-in-chief"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of the United States",
+        "Qwen/Qwen2.5-1.5B": " of the United States"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of the United States",
+        "Qwen/Qwen2.5-1.5B": " of the United States"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " Armed Forces. The",
+        "Qwen/Qwen2.5-1.5B": " Armed Forces. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " Armed Forces. The",
+        "Qwen/Qwen2.5-1.5B": " Armed Forces. The"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " president is elected by",
+        "Qwen/Qwen2.5-1.5B": " president is elected by"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " president is elected by",
+        "Qwen/Qwen2.5-1.5B": " president is elected by"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the people of the",
+        "Qwen/Qwen2.5-1.5B": " the people of the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the people of the",
+        "Qwen/Qwen2.5-1.5B": " the people of the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " United States every four",
+        "Qwen/Qwen2.5-1.5B": " United States for a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " United States every four",
+        "Qwen/Qwen2.5-1.5B": " United States"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " years. The president",
+        "Qwen/Qwen2.5-1.5B": " years. The president"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " years. The president",
+        "Qwen/Qwen2.5-1.5B": " years. The president"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is the only person",
+        "Qwen/Qwen2.5-1.5B": " is the chief executive"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is the",
+        "Qwen/Qwen2.5-1.5B": " is the"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " only",
+          "corrected_with": " most"
+        }
+      }
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " powerful person in the",
+        "Qwen/Qwen2.5-1.5B": " powerful person in the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " powerful person in the",
+        "Qwen/Qwen2.5-1.5B": " powerful person in the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " United States. The",
+        "Qwen/Qwen2.5-1.5B": " United States. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " United States. The",
+        "Qwen/Qwen2.5-1.5B": " United States. The"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " president is the head",
+        "Qwen/Qwen2.5-1.5B": " president is the head"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " president",
+        "Qwen/Qwen2.5-1.5B": " president"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " is",
+          "corrected_with": " has"
+        }
+      }
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the power to make",
+        "Qwen/Qwen2.5-1.5B": " the power to make"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the power to",
+        "Qwen/Qwen2.5-1.5B": " the power to"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " make",
+          "corrected_with": " veto"
+        }
+      }
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " laws passed by Congress",
+        "Qwen/Qwen2.5-1.5B": " bills passed by Congress"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " bills passed by Congress"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The president can",
+        "Qwen/Qwen2.5-1.5B": ". The president can"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". The president",
+        "Qwen/Qwen2.5-1.5B": ". The president"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " can",
+          "corrected_with": " also"
+        }
+      }
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " has the power to",
+        "Qwen/Qwen2.5-1.5B": " has the power to"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " has the power to",
+        "Qwen/Qwen2.5-1.5B": " has the power to"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 23,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " appoint judges to the",
+        "Qwen/Qwen2.5-1.5B": " appoint people to important"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " appoint judges to the",
+        "Qwen/Qwen2.5-1.5B": " appoint"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 24,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " Supreme Court. The",
+        "Qwen/Qwen2.5-1.5B": " Supreme Court. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " Supreme Court. The",
+        "Qwen/Qwen2.5-1.5B": " Supreme Court. The"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 25,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " president also has the",
+        "Qwen/Qwen2.5-1.5B": " president can also appoint"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " president",
+        "Qwen/Qwen2.5-1.5B": " president"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " also",
+          "corrected_with": " is"
+        }
+      }
+    },
+    {
+      "iteration": 26,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " also the leader of",
+        "Qwen/Qwen2.5-1.5B": " also the head of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " also the leader of",
+        "Qwen/Qwen2.5-1.5B": " also the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 27,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the United States.",
+        "Qwen/Qwen2.5-1.5B": " the executive branch of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the",
+        "Qwen/Qwen2.5-1.5B": " the"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " United",
+          "corrected_with": " Democratic"
+        }
+      }
+    },
+    {
+      "iteration": 28,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " Party. The president",
+        "Qwen/Qwen2.5-1.5B": " Party. The president"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " Party. The president",
+        "Qwen/Qwen2.5-1.5B": " Party. The president"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 29,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is also the leader",
+        "Qwen/Qwen2.5-1.5B": " is the leader of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is",
+        "Qwen/Qwen2.5-1.5B": " is the"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " leader",
+          "corrected_with": " most"
+        }
+      }
+    },
+    {
+      "iteration": 30,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " powerful person in the",
+        "Qwen/Qwen2.5-1.5B": " powerful person in the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " powerful",
+          "corrected_with": " important"
+        }
+      }
+    },
+    {
+      "iteration": 31,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " person in the United",
+        "Qwen/Qwen2.5-1.5B": " person in the United"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " person in the United",
+        "Qwen/Qwen2.5-1.5B": " person in the United"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 32,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " States. The president",
+        "Qwen/Qwen2.5-1.5B": " States. The president"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " States. The president",
+        "Qwen/Qwen2.5-1.5B": " States. The president"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 33,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is the most powerful",
+        "Qwen/Qwen2.5-1.5B": " is the head of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is the most powerful",
+        "Qwen/Qwen2.5-1.5B": " is the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 34,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " person in the United",
+        "Qwen/Qwen2.5-1.5B": " person in the United"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " person in the",
+        "Qwen/Qwen2.5-1.5B": " person in the"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " United",
+          "corrected_with": " world"
+        }
+      }
+    },
+    {
+      "iteration": 35,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The president is",
+        "Qwen/Qwen2.5-1.5B": ". The president is"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". The president is",
+        "Qwen/Qwen2.5-1.5B": ". The president is"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "The president of the USA is the head of state and the head of government of the United States of America. The president is also the commander-in-chief of the United States Armed Forces. The president is elected by the people of the United States every four years. The president is the most powerful person in the United States. The president has the power to veto bills passed by Congress. The president also has the power to appoint judges to the Supreme Court. The president is also the leader of the Democratic Party. The president is the most important person in the United States. The president is the most powerful person in the world. The president is"
+}

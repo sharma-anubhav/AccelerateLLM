@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-04-26T01:37:51.994645",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 2,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 169,
+    "tree_accepted_tokens": 69,
+    "tree_bonus_tokens": 13,
+    "tree_verification_calls": 34,
+    "tree_avg_branching_factor": 1.414,
+    "tokens_generated": 82
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", The"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "odorus strugg"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "els"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " to teach"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " his"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " son"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ", the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " number of a"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " triangle with'"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "  a"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ", c"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ", c"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ","
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " a, b"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ", b strugg"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "els strugg"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "els to strugg"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "els"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " to teach teach"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " teach"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " the son the"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " number of of"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " a a triangle"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " with' "
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " a, c"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ", c a"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ", b,"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " b a,"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " b, b"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": ", a"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ", a,"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " a, a"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": ", a,"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " a, a"
+    }
+  ],
+  "final_output": ", Theodorus struggels to teach his son, the number of a triangle with'  a, c, c, a, b, b struggels struggels to struggels to teach teach teach the son the number of of a a triangle with'  a, c, c a, b, b a, b, b, a, a, a, a, a, a, a"
+}

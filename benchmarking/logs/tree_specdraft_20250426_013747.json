@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-04-26T01:37:28.853691",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 402,
+    "tree_accepted_tokens": 109,
+    "tree_bonus_tokens": 14,
+    "tree_verification_calls": 29,
+    "tree_avg_branching_factor": 1.056,
+    "tokens_generated": 123
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of planets"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " a system is determined by the equation p"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " = 2n + 4"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ", where p is the number of planets and p"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " is the number of stars"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ". "
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "1000 stars are present"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " in a galaxy"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " How"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " many"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " planets"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " are in"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " the galaxy,"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " and what is the total of"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " the first 1000 numbers"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " in the series"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " 2, 6"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ", 10, 14, ...?"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " To find"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " the total"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " of planets in the galaxy, we use"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " the equation"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " p = 2n + 5"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ", where p is the number of planets and s"
+    }
+  ],
+  "final_output": ", the number of planets in a system is determined by the equation p = 2n + 4, where p is the number of planets and p is the number of stars. 1000 stars are present in a galaxy. How many planets are in the galaxy, and what is the total of the first 1000 numbers in the series 2, 6, 10, 14, ...? To find the total number of planets in the galaxy, we use the equation p = 2n + 5, where p is the number of planets and s"
+}

@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-04-26T01:13:06.648171",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 951,
+    "tree_accepted_tokens": 117,
+    "tree_bonus_tokens": 8,
+    "tree_verification_calls": 31,
+    "tree_avg_branching_factor": 1.204,
+    "tokens_generated": 125
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a young"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " girl"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " named"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " Lily. she"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " lived in a small village."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " One"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ", she to"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " forest to pick a"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " flower. when"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " she"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " walking"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " in the forest, she a"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " bear. the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " bear was very big and scary. she"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " was running"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " away"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ", but bear"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " was catching"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " herj"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". she was running"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " and running, but the bear was running"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ", too. she was running"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " and running, and the bear was running, too,"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " and she was running and,"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " and the bear was running, too and"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " she"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " was running and, and the bear was running, and"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " the bear was running, and the bear was running was"
+    }
+  ],
+  "final_output": ", there was a young girl named Lily. she lived in a small village. One day, she to the forest to pick a flower. when she was walking in the forest, she a bear. the bear was very big and scary. she was running away, but bear was catching herj. she was running and running, but the bear was running, too. she was running and running, and the bear was running, too, and she was running and, and the bear was running, too and she was running and, and the bear was running, and the bear was running, and the bear was running was"
+}

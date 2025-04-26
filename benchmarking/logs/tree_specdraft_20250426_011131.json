@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-04-26T01:11:16.871584",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 4,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 421,
+    "tree_accepted_tokens": 113,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 34,
+    "tree_avg_branching_factor": 1.438,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was an man"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " lived in a small strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ing town.."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " He man"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " had was"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " a good man, but"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " he was a"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " poorm"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "iser"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "able was"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". man"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". He a"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " man. man"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ". man. man a"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ". man. man."
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " man. man. man"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ". man. man."
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " man. man. man"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ". man. man "
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "1. man. man"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ". 2. man"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". 4"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ". man "
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "5. man. man"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ". man "
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "7 "
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": "8 7"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ". man. man strugg"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": "ing 91"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ". man. man."
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " man "
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": "12.."
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " 1."
+    }
+  ],
+  "final_output": ", there was an man who lived in a small strugging town.. He man had was a good man, but he was a poormiserable was. man. He a man. man. man. man a. man. man. man. man. man. man. man. man. man. man. man. man 1. man. man. 2. man. 4. man 5. man. man. man 7 8 7. man. man strugging 91. man. man. man 12.. 1."
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-04-26T01:28:13.706321",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 94,
+    "tree_accepted_tokens": 37,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 6,
+    "tree_avg_branching_factor": 1.143,
+    "tokens_generated": 41
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " a man who is elected by the people of the usa"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " president of the usa is a"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " man who is elected by the people of the usa."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " The president of the usa is a man who is elected"
+    }
+  ],
+  "final_output": " a man who is elected by the people of the usa. The president of the usa is a man who is elected by the people of the usa. The president of the usa is a man who is elected"
+}

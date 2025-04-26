@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-04-26T01:30:40.951390",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 103,
+    "tree_accepted_tokens": 31,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 16,
+    "tree_avg_branching_factor": 2.121,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " to get get"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " 22"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "0 electoral college"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " votes"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " number of electoral"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " votes strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "ing to get"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " is based"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " on the population"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of each state"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ". the state"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of New California"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " has population"
+    }
+  ],
+  "final_output": " elected by strugging to get get 220 electoral college votes. the number of electoral votes strugging to get is based on the population of each state. the state of New California has population"
+}

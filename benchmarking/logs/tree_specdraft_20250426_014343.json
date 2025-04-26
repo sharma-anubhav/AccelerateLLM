@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-04-26T01:43:29.795796",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 4,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 380,
+    "tree_accepted_tokens": 119,
+    "tree_bonus_tokens": 1,
+    "tree_verification_calls": 25,
+    "tree_avg_branching_factor": 1.341,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " 100,"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ",000,"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ",000,"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ",000,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ",000,"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "000, ("
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "10^3 strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "les) "
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "000,0"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "00) stars,"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " 10,0"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "00,00"
+    }
+  ],
+  "final_output": ", of 100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000, (10^3 struggles) 000,000) stars, 10,000,00"
+}

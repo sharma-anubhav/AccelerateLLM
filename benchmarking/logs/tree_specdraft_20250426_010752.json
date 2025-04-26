@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-04-26T01:07:27.844881",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 560,
+    "tree_accepted_tokens": 108,
+    "tree_bonus_tokens": 13,
+    "tree_verification_calls": 38,
+    "tree_avg_branching_factor": 1.022,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a young"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " girl"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " named Rose"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ". Rose"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " was a very curious who"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " loved"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " to explore the world and"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " learn"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " new about"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " it. she"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " was a"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " very who"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " loved to explore.\n"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "One"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", rose"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " decided"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " to go on a adventure the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " forest. he"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " was a"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " very"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " who loved to explore.\n as"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " she"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " walked"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " through the forest, saw"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " a beautiful flower. he"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " was a who"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " loved to explore.\nhe"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " a who loved to explore.\n was"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " a"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " who who"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " loved to explore.\n was"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " a"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " who who loved to explore.\n was who"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " who who"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " loved to explore.\n was who"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " who who loved to explore.\n was who who loved"
+    }
+  ],
+  "final_output": ", there was a young girl named Rose. Rose was a very curious who loved to explore the world and learn new about it. she was a very who loved to explore.\nOne day, rose decided to go on a adventure the forest. he was a very who loved to explore.\n as she walked through the forest, saw a beautiful flower. he was a who loved to explore.\nhe was a who loved to explore.\n was a who who loved to explore.\n was a who who loved to explore.\n was who who who loved to explore.\n was who who who loved to explore.\n was who who loved"
+}

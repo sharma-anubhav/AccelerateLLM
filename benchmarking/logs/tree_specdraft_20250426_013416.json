@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-04-26T01:34:09.933007",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 411,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 11,
+    "tree_avg_branching_factor": 1.185,
+    "tokens_generated": 41
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of the executive branch of the government"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ". The president is the"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " commander"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in chief of the armed."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " forces"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " president,"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " with the and"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the Senate, declares"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " war. the president appoint of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the judges"
+    }
+  ],
+  "final_output": " the head of the executive branch of the government. The president is the commander in chief of the armed. forces. the president, with the and the Senate, declares war. the president appoint of the judges"
+}

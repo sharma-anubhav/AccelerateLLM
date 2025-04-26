@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-04-26T01:19:43.346052",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 185,
+    "tree_accepted_tokens": 95,
+    "tree_bonus_tokens": 25,
+    "tree_verification_calls": 42,
+    "tree_avg_branching_factor": 1.569,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of the."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the world"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "\u2019s leading strugg"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "lers in in"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " the field strugg"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the world the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " world. the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " of the world"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ". the of"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "ler. the"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " of the world"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ". the of"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "ler. the"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " of the world"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ". The strugg"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "ler of the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " world. is"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " world..\n\n"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": "The futureof"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " the world is"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " in in"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " the hands strugg"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": "lers the"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " world. of"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": "lers.."
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": " world. of"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": " the world strugg"
+    }
+  ],
+  "final_output": " in the hands of the. The of the world\u2019s leading strugglers in in the field strugglers. of the world strugglers. of the world strugglers. of the world the. the of the world. the of the world. the of the world struggler. the of the world. the of the world struggler. the of the world. The struggler of the world. is the of the world..\n\nThe futureof the world is in in the hands strugglers the. of the world. of the world strugglers.. the of the world. of the world strugg"
+}

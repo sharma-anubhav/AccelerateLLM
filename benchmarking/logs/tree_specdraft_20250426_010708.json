@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-04-26T01:06:58.397558",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 271,
+    "tree_accepted_tokens": 33,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 17,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a young"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " girl"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " named Rose"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ". Rose"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " was a very curious who"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " loved"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " to explore the world and"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " learn"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " new about"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " it. she"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " was a"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " very who"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " loved to explore.\n"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "One"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", rose"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " decided"
+    }
+  ],
+  "final_output": ", there was a young girl named Rose. Rose was a very curious who loved to explore the world and learn new about it. she was a very who loved to explore.\nOne day, rose decided"
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-04-26T01:06:09.851310",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 84,
+    "tree_accepted_tokens": 37,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 10,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 44
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a princess"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " who a"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "woke from a dream"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ".1"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "\nThe princess was a girl"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of 14, and a"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " princess of the kingdom of the land"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of flowers"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ". she"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " was the only child of the king"
+    }
+  ],
+  "final_output": ", there was a princess who awoke from a dream.1\nThe princess was a girl of 14, and a princess of the kingdom of the land of flowers. she was the only child of the king"
+}

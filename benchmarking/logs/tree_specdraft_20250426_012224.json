@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-04-26T01:22:08.954260",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 271,
+    "tree_accepted_tokens": 106,
+    "tree_bonus_tokens": 16,
+    "tree_verification_calls": 45,
+    "tree_avg_branching_factor": 1.683,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of the."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the future of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " AI"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " is the world"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ".."
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " The world strugg"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "els"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " to keep"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " up"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " with. the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of."
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the of strugg"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "els. The"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " of the of"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " the of strugg"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "els the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " of the strugg"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "els. the"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ". of strugg"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "els struggles"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ". The strugg"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "els. the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ". of the"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": ". of strugg"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": "els ."
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 43,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 44,
+      "accepted_tokens": " the. of"
+    },
+    {
+      "iteration": 45,
+      "accepted_tokens": " the. of"
+    }
+  ],
+  "final_output": " in the hands of the. The of the future of AI is the world.. The world struggels to keep up with. the of. the of struggels. The of the of the. of the of struggels the. of the of the struggels. the. of the. of struggels struggles. The struggels. the. of the. of the. of the. of the. of struggels . the. of the. of the. of the. of the. of the. of the. of the. of the. of the. of the. of the. of"
+}

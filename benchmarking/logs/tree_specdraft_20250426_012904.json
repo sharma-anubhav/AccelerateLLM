@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-04-26T01:28:56.833457",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 182,
+    "tree_accepted_tokens": 64,
+    "tree_bonus_tokens": 16,
+    "tree_verification_calls": 21,
+    "tree_avg_branching_factor": 1.188,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ", which people"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " in each state get vote"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " for the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " president. The number of"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " votes a state gets is"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " based on the population"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of the state. The"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " state with the largest strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " is California, with "
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "55 votes. the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " state"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " with the smallest p\u00e9rdida"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " is the"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " state of Delaware"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", with only"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " 3 votes.The"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " president of the is"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " elected"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " by the Electoral strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ", which people strugg"
+    }
+  ],
+  "final_output": " elected by the Electoral College, which people in each state get vote for the president. The number of votes a state gets is based on the population of the state. The state with the largest strugg is California, with 55 votes. the state with the smallest p\u00e9rdida is the state of Delaware, with only 3 votes.The president of the is elected by the Electoral strugg, which people strugg"
+}

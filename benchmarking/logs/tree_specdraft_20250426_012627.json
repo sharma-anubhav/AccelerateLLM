@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-04-26T01:26:13.878668",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 651,
+    "tree_accepted_tokens": 78,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 16,
+    "tree_avg_branching_factor": 1.2,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the generation"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " that is"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " growing in"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the 2020s.2"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "020 is the year of the "
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "100th anniversary of the birth of Alan p\u00e9rdida"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ". Turing, the father of artificial,"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " and the 100th anniversary of the birth"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " first computer, EN"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "I,"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " in 16"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "0"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "0. The"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " 2 the"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " 2 the"
+    }
+  ],
+  "final_output": " in the hands of the generation that is growing in the 2020s.2020 is the year of the 100th anniversary of the birth of Alan p\u00e9rdida. Turing, the father of artificial, and the 100th anniversary of the birth of the first computer, ENI, in 1600. The 2 the 2 the"
+}

@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-04-26T01:28:08.185909",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 117,
+    "tree_accepted_tokens": 50,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 11,
+    "tree_avg_branching_factor": 1.083,
+    "tokens_generated": 59
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " a man who is elected by the people representatives"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of the 50 states.The"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " president is the leader"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " of the country"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " and the head"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of state"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ". The president is the leader"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of the country and the head of state."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " president is the leader of the country and the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " head of state.<|endoftext|>"
+    }
+  ],
+  "final_output": " a man who is elected by the people representatives of the 50 states.The president is the leader of the country and the head of state. The president is the leader of the country and the head of state. The president is the leader of the country and the head of state."
+}

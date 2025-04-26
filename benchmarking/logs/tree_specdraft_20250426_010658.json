@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-04-26T01:06:47.593317",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 198,
+    "tree_accepted_tokens": 128,
+    "tree_bonus_tokens": 0,
+    "tree_verification_calls": 20,
+    "tree_avg_branching_factor": 1.095,
+    "tokens_generated": 128
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", Lily"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " and her were"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " playing a game.."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " Lily and were"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " playing"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " a game. Lily and were"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " playing a game. Lily and were playing a"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " game. Lily and were playing a game."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " Lily and were playing a game. Lily and"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " were playing a game. Lily and were playing"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " a game. Lily and were playing game"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". Lily and were playing game a"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " game"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ". Lily and were playing a"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " game. Lily and were playing a game."
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " Lily and were playing a game. Lily and"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " were playing a game. Lily and were playing"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " a game. Lily and were playing game"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ". Lily and were playing."
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " Lily and were playing. Lily and were playing"
+    }
+  ],
+  "final_output": ", Lily and her were playing a game.. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing game. Lily and were playing game a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing a game. Lily and were playing game. Lily and were playing. Lily and were playing. Lily and were playing"
+}

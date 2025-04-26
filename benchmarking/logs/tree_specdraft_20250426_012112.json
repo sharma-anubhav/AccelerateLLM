@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-04-26T01:21:06.081533",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 253,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 10,
+    "tree_avg_branching_factor": 1.188,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "?\nThe future of AI is in the hands of the"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " people"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ". As technology"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " continues"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " to advance, it is important to ensure that the technology"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is developed"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " and."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " the people. This"
+    }
+  ],
+  "final_output": " in the hands of the who?\nThe future of AI is in the hands of the people. As technology continues to advance, it is important to ensure that the technology is developed and. The of the people. This"
+}

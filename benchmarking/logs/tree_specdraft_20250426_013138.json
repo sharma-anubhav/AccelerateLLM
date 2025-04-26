@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:31:34.441325",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 201,
+    "tree_accepted_tokens": 40,
+    "tree_bonus_tokens": 0,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.316,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected for a term of four years"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ", and he can be"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " reelected for one"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " or more terms"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " president was"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " reelected in 19"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "99"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ", 20000"
+    }
+  ],
+  "final_output": " elected for a term of four years, and he can be reelected for one or more terms. the president was reelected in 1999, 20000"
+}

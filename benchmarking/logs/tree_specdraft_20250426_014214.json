@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-04-26T01:42:08.499028",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 330,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 10,
+    "tree_avg_branching_factor": 1.167,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", A"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ", C"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", and R"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " are three such"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " planets. of"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " A, C, and R, is"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " 1/4"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ", 1/5,2"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "/6"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ", and 1/7 of the number"
+    }
+  ],
+  "final_output": ", A, C, and R are three such planets. of A, C, and R, is 1/4, 1/5,2/6, and 1/7 of the number"
+}

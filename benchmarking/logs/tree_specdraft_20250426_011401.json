@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-04-26T01:13:44.017728",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 443,
+    "tree_accepted_tokens": 116,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 42,
+    "tree_avg_branching_factor": 2.408,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", a there"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " was a a"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " man named strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ler. strugg"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "ler was had"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " a big strugg"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "ler. strugg"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "ler was's"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " a big big"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " strugg."
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "  Str"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "ugg"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "ler was strugg"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ". "
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " He was was"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " a big big"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": ".  big"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": ".  big"
+    }
+  ],
+  "final_output": ", a there was a a man named struggler. struggler was had a big struggler. struggler was's a big big strugg.  Struggler was strugg.  He was was a big big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big.  big"
+}

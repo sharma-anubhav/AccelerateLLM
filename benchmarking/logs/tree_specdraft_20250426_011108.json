@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:11:03.914660",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 186,
+    "tree_accepted_tokens": 34,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.414,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was an man"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " lived in a small strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ing town.."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " He man"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " had was"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " a good man, but"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " he was a"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " poorm"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "iser"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "able was"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". man"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". He a"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " man. man"
+    }
+  ],
+  "final_output": ", there was an man who lived in a small strugging town.. He man had was a good man, but he was a poormiserable was. man. He a man. man"
+}

@@ -1,0 +1,207 @@
+{
+  "timestamp": "2025-04-26T00:59:32.245623",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 6,
+  "metrics": {
+    "total_iterations": 11,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 36,
+    "corrections_by_target": 7,
+    "tokens_generated": 43,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 36,
+        "proposed": 66
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 0,
+        "proposed": 66
+      }
+    ],
+    "target_generate_calls": 7,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 43,
+    "actual_target_calls": 7,
+    "tokens_saved": 36,
+    "percent_tokens_saved": 83.72
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " in the hands of the people",
+        "Qwen/Qwen2.5-1.5B": " bright, but it\u2019s not"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " in",
+          "corrected_with": " here"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The technology is advancing at",
+        "Qwen/Qwen2.5-1.5B": ". The question is, what"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " The",
+          "corrected_with": " It"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s time to get ready.\n",
+        "Qwen/Qwen2.5-1.5B": "\u2019s time to embrace it.\n"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s",
+        "Qwen/Qwen2.5-1.5B": "\u2019s"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " time",
+          "corrected_with": " not"
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " just a buzzword, it",
+        "Qwen/Qwen2.5-1.5B": " just a buzzword, but"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " just a buzzword",
+        "Qwen/Qwen2.5-1.5B": " just a buzzword"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ",",
+          "corrected_with": " anymore"
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". It\u2019s a reality.",
+        "Qwen/Qwen2.5-1.5B": ". It\u2019s a reality."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". It\u2019s a reality",
+        "Qwen/Qwen2.5-1.5B": ". It\u2019s a reality"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ".",
+          "corrected_with": " that"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing the way we live",
+        "Qwen/Qwen2.5-1.5B": " is changing the way we live"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing the way we live",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", work, and interact with",
+        "Qwen/Qwen2.5-1.5B": ", work, and interact with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", work, and interact with",
+        "Qwen/Qwen2.5-1.5B": ", work, and interact with"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the world around us. From",
+        "Qwen/Qwen2.5-1.5B": " the world around us. From"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " the",
+          "corrected_with": " technology"
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". From self-driving cars to",
+        "Qwen/Qwen2.5-1.5B": ". From self-driving cars to"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " From",
+          "corrected_with": " But"
+        }
+      }
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " what exactly is AI, and",
+        "Qwen/Qwen2.5-1.5B": " what exactly is AI, and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " what exactly is AI, and",
+        "Qwen/Qwen2.5-1.5B": " what exactly is AI, and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " how is it transforming our world",
+        "Qwen/Qwen2.5-1.5B": " how does it work? In"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " how is it transforming our world",
+        "Qwen/Qwen2.5-1.5B": " how"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "The future of AI is here. It\u2019s not just a buzzword anymore. It\u2019s a reality that\u2019s changing the way we live, work, and interact with technology. But what exactly is AI, and how is it transforming our world"
+}

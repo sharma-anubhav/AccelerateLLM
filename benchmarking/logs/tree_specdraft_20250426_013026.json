@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-04-26T01:30:15.874598",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 405,
+    "tree_accepted_tokens": 81,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 16,
+    "tree_avg_branching_factor": 1.211,
+    "tokens_generated": 85
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College, by"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " a simple majority of the votes"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " cast."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " number of electors for each state is equal to the"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " number of members"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " of the House of Representatives and"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the Senate."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " number of members of the House of Representatives is equal to"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the number of state"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " deleg in"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the House of Representatives and"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the number of state deleg in the House"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of Representatives. The number of state"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " deleg in the House of Representatives is the"
+    }
+  ],
+  "final_output": " elected by the Electoral College, by a simple majority of the votes cast. The number of electors for each state is equal to the number of members of the House of Representatives and the Senate. The number of members of the House of Representatives is equal to the number of state deleg in the House of Representatives and the number of state deleg in the House of Representatives. The number of state deleg in the House of Representatives is the"
+}

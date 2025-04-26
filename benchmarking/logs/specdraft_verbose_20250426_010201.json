@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-04-26T01:01:57.453227",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 6,
+  "metrics": {
+    "total_iterations": 9,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 40,
+    "corrections_by_target": 4,
+    "tokens_generated": 44,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 31,
+        "proposed": 54
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 9,
+        "proposed": 54
+      }
+    ],
+    "target_generate_calls": 4,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 44,
+    "actual_target_calls": 4,
+    "tokens_saved": 40,
+    "percent_tokens_saved": 90.91
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " elected by the Electoral College,",
+        "Qwen/Qwen2.5-1.5B": " a man who is elected by"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " elected",
+          "corrected_with": " the"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " head of the executive branch of",
+        "Qwen/Qwen2.5-1.5B": " head of state and head of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " head of",
+        "Qwen/Qwen2.5-1.5B": " head of state and"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " head",
+          "corrected_with": " the"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " head of government. The president",
+        "Qwen/Qwen2.5-1.5B": " head of government of the USA"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " head of government",
+        "Qwen/Qwen2.5-1.5B": " head of government of the"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " USA",
+          "corrected_with": " United"
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " States of America. The president",
+        "Qwen/Qwen2.5-1.5B": " States of America. The president"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " States of America. The president",
+        "Qwen/Qwen2.5-1.5B": " States of America. The president"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is the commander-in-chief of",
+        "Qwen/Qwen2.5-1.5B": " is the commander-in-chief of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is",
+        "Qwen/Qwen2.5-1.5B": " is"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " the",
+          "corrected_with": " also"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the commander-in-chief of the",
+        "Qwen/Qwen2.5-1.5B": " the commander-in-chief of the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the commander-in-chief of the",
+        "Qwen/Qwen2.5-1.5B": " the commander-in-chief of the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " United States Armed Forces. The",
+        "Qwen/Qwen2.5-1.5B": " United States Armed Forces. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " United States Armed Forces. The",
+        "Qwen/Qwen2.5-1.5B": " United States Armed Forces. The"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " president is elected by the people",
+        "Qwen/Qwen2.5-1.5B": " president is elected by the people"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " president is elected by the people",
+        "Qwen/Qwen2.5-1.5B": " president is elected by the people"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of the United States every four",
+        "Qwen/Qwen2.5-1.5B": " of the United States for a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of the United States every four",
+        "Qwen/Qwen2.5-1.5B": " of the United States"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "The president of the USA is the head of state and the head of government of the United States of America. The president is also the commander-in-chief of the United States Armed Forces. The president is elected by the people of the United States every four"
+}

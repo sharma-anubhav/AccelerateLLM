@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:21:12.587758",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 568,
+    "tree_accepted_tokens": 72,
+    "tree_bonus_tokens": 8,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.206,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "?\nThe future of AI is in the hands of the"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " people"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ". As technology"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " continues"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " to advance, it is important to ensure that the technology"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is developed"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " and."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " the people. This"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " means"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " that the technology"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " should"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " be developed and used in a way that benefits everyone."
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " It"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " is the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " responsibility of the to"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " ensure"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " that the technology is developed in the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " best"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " interests"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " of humanity"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " This"
+    }
+  ],
+  "final_output": " in the hands of the who?\nThe future of AI is in the hands of the people. As technology continues to advance, it is important to ensure that the technology is developed and. The of the people. This means that the technology should be developed and used in a way that benefits everyone. It is the responsibility of the to ensure that the technology is developed in the best interests of humanity. This"
+}

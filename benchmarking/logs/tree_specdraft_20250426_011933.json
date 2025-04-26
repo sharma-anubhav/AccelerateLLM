@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-04-26T01:19:22.623069",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 245,
+    "tree_accepted_tokens": 119,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 17,
+    "tree_avg_branching_factor": 1.1,
+    "tokens_generated": 128
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in hands"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of the people."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " future"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " of ai"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " is in hands of the hands"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " of the people. The future of ai in"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the hands of the people. The of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " ai in the hands of the people. The of"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " ai in the hands of the people. The future"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of ai in the hands of the people. The future"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " of ai in the hands of the people. The future"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of ai in the hands of the people. The future"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " of ai in the hands of the people. The future"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of ai in the hands of the people. future"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " of ai in the hands of the people. future"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " of ai in the hands of the people. future of"
+    }
+  ],
+  "final_output": " in hands of the people. The future of ai is in hands of the hands of the people. The future of ai in the hands of the people. The of ai in the hands of the people. The of ai in the hands of the people. The future of ai in the hands of the people. The future of ai in the hands of the people. The future of ai in the hands of the people. The future of ai in the hands of the people. The future of ai in the hands of the people. future of ai in the hands of the people. future of ai in the hands of the people. future of"
+}

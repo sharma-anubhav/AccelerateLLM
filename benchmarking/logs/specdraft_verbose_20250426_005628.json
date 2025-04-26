@@ -1,0 +1,226 @@
+{
+  "timestamp": "2025-04-26T00:56:23.963646",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 4,
+  "metrics": {
+    "total_iterations": 13,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 37,
+    "corrections_by_target": 6,
+    "tokens_generated": 43,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 32,
+        "proposed": 52
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 5,
+        "proposed": 52
+      }
+    ],
+    "target_generate_calls": 6,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 43,
+    "actual_target_calls": 6,
+    "tokens_saved": 37,
+    "percent_tokens_saved": 86.05
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there was a",
+        "Qwen/Qwen2.5-1.5B": ", there was a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there was a",
+        "Qwen/Qwen2.5-1.5B": ", there was a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " little girl named Lily",
+        "Qwen/Qwen2.5-1.5B": " little girl named Lily"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " little girl named Lily",
+        "Qwen/Qwen2.5-1.5B": " little girl named Lily"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". She lived in",
+        "Qwen/Qwen2.5-1.5B": ". She lived in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". She lived in",
+        "Qwen/Qwen2.5-1.5B": ". She lived in"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a small village with",
+        "Qwen/Qwen2.5-1.5B": " a small village with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a small village",
+        "Qwen/Qwen2.5-1.5B": " a small village"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " with",
+          "corrected_with": " surrounded"
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " by tall trees and",
+        "Qwen/Qwen2.5-1.5B": " by trees and flowers"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " by",
+        "Qwen/Qwen2.5-1.5B": " by"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " tall",
+          "corrected_with": " mountains"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". One day,",
+        "Qwen/Qwen2.5-1.5B": " and forests. One"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " and forests. One"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " day, she decided",
+        "Qwen/Qwen2.5-1.5B": " day, Lily's"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " day,",
+        "Qwen/Qwen2.5-1.5B": " day,"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " she",
+          "corrected_with": " while"
+        }
+      }
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " playing in the woods",
+        "Qwen/Qwen2.5-1.5B": " playing in the forest"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " playing",
+          "corrected_with": " exploring"
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the woods, she",
+        "Qwen/Qwen2.5-1.5B": " the forest, she"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the woods, she",
+        "Qwen/Qwen2.5-1.5B": " the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stumbled upon a hidden",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon a mysterious"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stumbled upon a hidden",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " cave. Intrig",
+        "Qwen/Qwen2.5-1.5B": " cave. Inside the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " cave.",
+        "Qwen/Qwen2.5-1.5B": " cave."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " Intr",
+          "corrected_with": " Cur"
+        }
+      }
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "iosity got the better",
+        "Qwen/Qwen2.5-1.5B": "ious, she decided"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": "ious"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": ",",
+          "corrected_with": " and"
+        }
+      }
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " adventurous, she decided",
+        "Qwen/Qwen2.5-1.5B": " adventurous, she decided"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " adventurous, she decided",
+        "Qwen/Qwen2.5-1.5B": " adventurous, she decided"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "Once upon a time, there was a little girl named Lily. She lived in a small village surrounded by mountains and forests. One day, while exploring the woods, she stumbled upon a hidden cave. Curious and adventurous, she decided"
+}

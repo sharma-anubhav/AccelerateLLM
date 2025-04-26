@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-04-26T01:04:53.348484",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 10,
+  "metrics": {
+    "total_iterations": 4,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 39,
+    "corrections_by_target": 1,
+    "tokens_generated": 40,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 29,
+        "proposed": 40
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 10,
+        "proposed": 40
+      }
+    ],
+    "target_generate_calls": 1,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 40,
+    "actual_target_calls": 1,
+    "tokens_saved": 39,
+    "percent_tokens_saved": 97.5
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there are three types of stars: red,",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of stars: red,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there are three types of stars: red,",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of stars: red,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue, and green. Each type of star emits",
+        "Qwen/Qwen2.5-1.5B": " blue, and green. The number of red stars"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue, and green. Each type of star",
+        "Qwen/Qwen2.5-1.5B": " blue, and green."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " emits",
+          "corrected_with": " has"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a unique number of planets orbiting it. The",
+        "Qwen/Qwen2.5-1.5B": " a different number of stars. The total number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a unique number of planets orbiting it. The",
+        "Qwen/Qwen2.5-1.5B": " a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " number of planets orbiting red stars is twice the",
+        "Qwen/Qwen2.5-1.5B": " total number of planets in the galaxy is 1"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " total number of planets in the galaxy is 1"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "In a galaxy far away, there are three types of stars: red, blue, and green. Each type of star has a unique number of planets orbiting it. The total number of planets in the galaxy is 1"
+}

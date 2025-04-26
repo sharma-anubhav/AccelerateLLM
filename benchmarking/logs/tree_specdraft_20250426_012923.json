@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:29:19.133885",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 91,
+    "tree_accepted_tokens": 36,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.3,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College. strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ler2"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "000 202"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "0-12-2 strugg"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "ler"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "2000 2 strugg"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "ler"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "2000 2 strugg"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "ler"
+    }
+  ],
+  "final_output": " elected by the Electoral College. struggler2000 2020-12-2 struggler2000 2 struggler2000 2 struggler"
+}

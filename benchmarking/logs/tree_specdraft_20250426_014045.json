@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-04-26T01:40:41.641058",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 106,
+    "tree_accepted_tokens": 34,
+    "tree_bonus_tokens": 8,
+    "tree_verification_calls": 15,
+    "tree_avg_branching_factor": 1.585,
+    "tokens_generated": 42
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing to find"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a way strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ing to find"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " a way to"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " make the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " most of the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " resources they have"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ". The have"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " a small limited"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " number of of"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " planets"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ", and each"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " planet is is"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " a different different"
+    }
+  ],
+  "final_output": ", there strugging to find a way strugging to find a way to make the most of the resources they have. The have a small limited number of of planets, and each planet is is a different different"
+}

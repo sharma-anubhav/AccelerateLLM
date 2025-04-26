@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-04-26T01:44:05.346233",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 236,
+    "tree_accepted_tokens": 40,
+    "tree_bonus_tokens": 1,
+    "tree_verification_calls": 7,
+    "tree_avg_branching_factor": 1.333,
+    "tokens_generated": 41
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " there are 100 stars. A"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " group of 100"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " students is these"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " stars, and a"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " group of 100 students is these"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " 100 stars. How How"
+    }
+  ],
+  "final_output": ",, there are 100 stars. A group of 100 students is these stars, and a group of 100 students is these 100 stars. How How"
+}

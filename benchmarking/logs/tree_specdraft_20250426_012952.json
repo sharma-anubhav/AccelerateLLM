@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-04-26T01:29:48.873376",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 137,
+    "tree_accepted_tokens": 44,
+    "tree_bonus_tokens": 1,
+    "tree_verification_calls": 7,
+    "tree_avg_branching_factor": 1.625,
+    "tokens_generated": 45
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College, the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of which is equal"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " to the number of members of the House of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " Representatives and the Senate in the United States."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " The number of members of the House of Representatives"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is equal to 45"
+    }
+  ],
+  "final_output": " elected by the Electoral College, the number of which is equal to the number of members of the House of Representatives and the Senate in the United States. The number of members of the House of Representatives is equal to 45"
+}

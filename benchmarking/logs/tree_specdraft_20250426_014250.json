@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-04-26T01:42:47.041375",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 155,
+    "tree_accepted_tokens": 35,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 15,
+    "tree_avg_branching_factor": 1.925,
+    "tokens_generated": 42
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "els"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a great strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "l between the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " forces and"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " the energy."
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " The great energy"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of the force"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of the energy"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " of the force"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of the the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " the the the"
+    }
+  ],
+  "final_output": ", there struggels a great struggl between the forces and the energy. The great energy of the force of the energy of the force of the the the the the the the the the the the the the the"
+}

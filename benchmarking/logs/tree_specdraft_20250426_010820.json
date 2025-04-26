@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-04-26T01:08:16.631869",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 150,
+    "tree_accepted_tokens": 36,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 13,
+    "tree_avg_branching_factor": 1.4,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", a"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " man was walking down"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " the."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " road. a"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " dog"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " came"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " out of the and"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " ran"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " after him the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " man was very angry and"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " he hit the dog to"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " make it stop strugg"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "ing. the dog dog"
+    }
+  ],
+  "final_output": ", a man was walking down the. road. a dog came out of the and ran after him the man was very angry and he hit the dog to make it stop strugging. the dog dog"
+}

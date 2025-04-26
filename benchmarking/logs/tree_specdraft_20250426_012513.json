@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-04-26T01:25:09.592015",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 188,
+    "tree_accepted_tokens": 35,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 8,
+    "tree_avg_branching_factor": 1.214,
+    "tokens_generated": 41
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people."
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " It is up to us to strugg"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "l\nE. It is up"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " to us to make sure that the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " future"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of ai"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is a bright"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " on\nE. It is up"
+    }
+  ],
+  "final_output": " in the hands of the people. It is up to us to struggl\nE. It is up to us to make sure that the future of ai is a bright on\nE. It is up"
+}

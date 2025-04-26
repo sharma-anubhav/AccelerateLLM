@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-04-26T01:03:10.344515",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 2,
+  "metrics": {
+    "total_iterations": 20,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 40,
+    "corrections_by_target": 0,
+    "tokens_generated": 40,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 36,
+        "proposed": 40
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 4,
+        "proposed": 40
+      }
+    ],
+    "target_generate_calls": 0,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0,
+    "baseline_target_calls": 40,
+    "actual_target_calls": 0,
+    "tokens_saved": 40,
+    "percent_tokens_saved": 100.0
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there",
+        "Qwen/Qwen2.5-1.5B": ", there"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there",
+        "Qwen/Qwen2.5-1.5B": ", there"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " are three",
+        "Qwen/Qwen2.5-1.5B": " are three"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " are three",
+        "Qwen/Qwen2.5-1.5B": " are three"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " types of",
+        "Qwen/Qwen2.5-1.5B": " types of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " types of",
+        "Qwen/Qwen2.5-1.5B": " types of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stars:",
+        "Qwen/Qwen2.5-1.5B": " stars:"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stars:",
+        "Qwen/Qwen2.5-1.5B": " stars:"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " red,",
+        "Qwen/Qwen2.5-1.5B": " red,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " red,",
+        "Qwen/Qwen2.5-1.5B": " red,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue,",
+        "Qwen/Qwen2.5-1.5B": " blue,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue,",
+        "Qwen/Qwen2.5-1.5B": " blue,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " and green",
+        "Qwen/Qwen2.5-1.5B": " and green"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " and green",
+        "Qwen/Qwen2.5-1.5B": " and green"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". Each",
+        "Qwen/Qwen2.5-1.5B": ". The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". Each",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " type of",
+        "Qwen/Qwen2.5-1.5B": " type of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " type of",
+        "Qwen/Qwen2.5-1.5B": " type of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " star emits",
+        "Qwen/Qwen2.5-1.5B": " star has"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " star",
+        "Qwen/Qwen2.5-1.5B": " star has"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a unique",
+        "Qwen/Qwen2.5-1.5B": " a different"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a unique",
+        "Qwen/Qwen2.5-1.5B": " a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " number of",
+        "Qwen/Qwen2.5-1.5B": " number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " number of",
+        "Qwen/Qwen2.5-1.5B": " number of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " planets orbit",
+        "Qwen/Qwen2.5-1.5B": " stars in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " planets orbit",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "ing it",
+        "Qwen/Qwen2.5-1.5B": "ing it"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "ing it",
+        "Qwen/Qwen2.5-1.5B": "ing it"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The",
+        "Qwen/Qwen2.5-1.5B": ". The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". The",
+        "Qwen/Qwen2.5-1.5B": ". The"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " number of",
+        "Qwen/Qwen2.5-1.5B": " total number"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " total number"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of planets",
+        "Qwen/Qwen2.5-1.5B": " of planets"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of planets",
+        "Qwen/Qwen2.5-1.5B": " of planets"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " in the",
+        "Qwen/Qwen2.5-1.5B": " in the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " in the",
+        "Qwen/Qwen2.5-1.5B": " in the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " galaxy is",
+        "Qwen/Qwen2.5-1.5B": " galaxy is"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " galaxy is",
+        "Qwen/Qwen2.5-1.5B": " galaxy is"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " 1",
+        "Qwen/Qwen2.5-1.5B": " 1"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " 1",
+        "Qwen/Qwen2.5-1.5B": " 1"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "In a galaxy far away, there are three types of stars: red, blue, and green. Each type of star has a unique number of planets orbiting it. The total number of planets in the galaxy is 1"
+}

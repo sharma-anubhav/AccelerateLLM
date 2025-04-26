@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-04-26T01:05:14.846637",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 2,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 110,
+    "tree_accepted_tokens": 50,
+    "tree_bonus_tokens": 30,
+    "tree_verification_calls": 40,
+    "tree_avg_branching_factor": 1.245,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", a"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " king"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " had a daughter"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " was very beautiful"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " She"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " so strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "ing"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " to find a"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " husband. so"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " king asked to"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " all the wise"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " men"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " of the kingdom"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " to come strugg"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "ing to find"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " a husband."
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " so"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the king asked"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " to all the"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " wise"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " men"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " of the kingdom"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " to come and"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " help"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " him find"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " a husband."
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " wise"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " men that"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " came to the"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " king"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " were,"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " the second"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " one"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " was a very"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " wise"
+    }
+  ],
+  "final_output": ", a king had a daughter who was very beautiful. She was so strugging to find a husband. so the king asked to all the wise men of the kingdom to come strugging to find a husband. so the king asked to all the wise men of the kingdom to come and help him find a husband. The wise men that came to the king were, the second one was a very wise"
+}

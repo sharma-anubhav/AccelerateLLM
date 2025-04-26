@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-04-26T01:40:52.904948",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 284,
+    "tree_accepted_tokens": 107,
+    "tree_bonus_tokens": 13,
+    "tree_verification_calls": 42,
+    "tree_avg_branching_factor": 1.731,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing to find"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a way strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ing to find"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " a way to"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " make the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " most of the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " resources they have"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ". The have"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " a small limited"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " number of of"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " planets"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ", and each"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " planet is is"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " a different different"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " type of type"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " of plant strugg"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "ing. some"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " of the them"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " are are good"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " for good for"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " growing,"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " and some are"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " are not good"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " for for not"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " good for for"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " growing. strugg"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": "ing. to"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " make the most"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " of the they"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " have, they"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " have to to"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " find make"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " the the most"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " most the"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " of the of"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " of the of"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " of the of"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": " the of the"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": " of the of"
+    }
+  ],
+  "final_output": ", there strugging to find a way strugging to find a way to make the most of the resources they have. The have a small limited number of of planets, and each planet is is a different different type of type of plant strugging. some of the them are are good for good for growing, and some are are not good for for not good for for growing. strugging. to make the most of the they have, they have to to find make the the most most the of the of the of the of the of the of the of the of the of the of the of"
+}

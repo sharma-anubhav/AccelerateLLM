@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-04-26T01:09:50.653235",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 235,
+    "tree_accepted_tokens": 35,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 11,
+    "tree_avg_branching_factor": 1.067,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a young"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " man named Jack. he"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " a good boy, but was"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " very lazy. he"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " didn"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "'t"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " like to do any work. they"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " said he was lazy, he"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " said"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ", \" I"
+    }
+  ],
+  "final_output": ", there was a young man named Jack. he was a good boy, but was very lazy. he didn't like to do any work. they said he was lazy, he said, \" I"
+}

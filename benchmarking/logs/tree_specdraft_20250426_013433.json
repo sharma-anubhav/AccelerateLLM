@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-04-26T01:34:16.862637",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 856,
+    "tree_accepted_tokens": 80,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 23,
+    "tree_avg_branching_factor": 1.235,
+    "tokens_generated": 82
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of the executive branch of the government"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ". The president is the"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " commander"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in chief of the armed."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " forces"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " president,"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " with the and"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the Senate, declares"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " war. the president appoint of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the judges"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " of the Supreme Court, and of"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " other"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " federal"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " judges"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", and of"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " the heads,"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " of the executive departments. the president is the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " commander of"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " the the"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " armed,"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " forces"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". the president, with the and the Senate"
+    }
+  ],
+  "final_output": " the head of the executive branch of the government. The president is the commander in chief of the armed. forces. the president, with the and the Senate, declares war. the president appoint of the judges of the Supreme Court, and of other federal judges, and of the heads, of the executive departments. the president is the commander of the the armed, forces. the president, with the and the Senate"
+}

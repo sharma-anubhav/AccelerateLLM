@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-04-26T01:34:59.985531",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 225,
+    "tree_accepted_tokens": 40,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 6,
+    "tree_avg_branching_factor": 1.111,
+    "tokens_generated": 42
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of the executive branch of the government.."
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " The president of the us"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " is"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the head of the executive branch of us"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " government. the president of the is"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " the head of the executive branch of the government strugg"
+    }
+  ],
+  "final_output": " the head of the executive branch of the government.. The president of the us is the head of the executive branch of us government. the president of the is the head of the executive branch of the government strugg"
+}

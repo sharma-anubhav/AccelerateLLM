@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:41:31.644865",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 6,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 200,
+    "tree_accepted_tokens": 80,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.176,
+    "tokens_generated": 82
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",1"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "0000000"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "000000 strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "lers"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " are trying to escape the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " clutches of the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " evil tyrant. The tyr tyr"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "ant has 1000"
+    }
+  ],
+  "final_output": ",10000000000000000000000000000000000000000000000000000000 strugglers are trying to escape the clutches of the evil tyrant. The tyr tyrant has 1000"
+}

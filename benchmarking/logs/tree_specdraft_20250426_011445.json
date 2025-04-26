@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:14:38.497183",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 352,
+    "tree_accepted_tokens": 33,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.375,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little boy strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing to climb"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " tree.1"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ". but"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " the boy"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " was determined to reach"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the top of."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "2"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ". the tree, no"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " matter how."
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "3"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". tall"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " it."
+    }
+  ],
+  "final_output": ", there was a little boy strugging to climb a tree.1. but the boy was determined to reach the top of.2. the tree, no matter how.3. tall it."
+}

@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:17:29.393192",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 30,
+    "tree_accepted_tokens": 28,
+    "tree_bonus_tokens": 14,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 42
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the cloud"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "\n\nThe future"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of AI is"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in the cloud"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "\n\nThe future"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of AI is"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " in the cloud"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "\n\nThe future"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of AI is"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " in the cloud"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "\n\nThe future"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " of AI is"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " in the cloud"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "\n\nThe future"
+    }
+  ],
+  "final_output": " in the cloud\n\nThe future of AI is in the cloud\n\nThe future of AI is in the cloud\n\nThe future of AI is in the cloud\n\nThe future of AI is in the cloud\n\nThe future"
+}

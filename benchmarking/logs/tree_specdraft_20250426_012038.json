@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-04-26T01:20:28.611807",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 226,
+    "tree_accepted_tokens": 122,
+    "tree_bonus_tokens": 1,
+    "tree_verification_calls": 21,
+    "tree_avg_branching_factor": 1.12,
+    "tokens_generated": 123
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people."
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " That"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "\u2019s why from"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the very,"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " very,"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " very,"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ", very, very, very,"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ", very, very, very,"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ", very, very, very,"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ", very, very, very,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", very, very, very,"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " very, very, very, very"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ", very, very, long long"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ", long, long, long,"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " long, long, long, long"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ", long, long, long,"
+    }
+  ],
+  "final_output": " in the hands of the people. That\u2019s why from the very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, very, long long, long, long, long, long, long, long, long, long, long, long,"
+}

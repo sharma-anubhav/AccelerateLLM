@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-04-26T01:30:53.221799",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 279,
+    "tree_accepted_tokens": 109,
+    "tree_bonus_tokens": 13,
+    "tree_verification_calls": 45,
+    "tree_avg_branching_factor": 1.906,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " to get get"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " 22"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "0 electoral college"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " votes"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " number of electoral"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " votes strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "ing to get"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " is based"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " on the population"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of each state"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ". the state"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of New California"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " has population"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " of0"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "000"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "000"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "00 people"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ".,"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " how."
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " many. electoral"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ". college."
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " votes. does"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ". the."
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " state. of"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ". CaliforniaYork"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": ". have."
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " in "
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": "11"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": "000"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": "0.0"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": "0.0"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": "0.0"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": "0.."
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": "000"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 43,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 44,
+      "accepted_tokens": ".00"
+    },
+    {
+      "iteration": 45,
+      "accepted_tokens": ".00"
+    }
+  ],
+  "final_output": " elected by strugging to get get 220 electoral college votes. the number of electoral votes strugging to get is based on the population of each state. the state of New California has population of0.0000000000 people., how. many. electoral. college. votes. does. the. state. of. CaliforniaYork. have. in 11000.000.00.00.00..000.00.00.00.00.00.00"
+}

@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-04-26T01:18:46.767563",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 8,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 234,
+    "tree_accepted_tokens": 80,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 20,
+    "tree_avg_branching_factor": 1.077,
+    "tokens_generated": 84
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "? The"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " future"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " of ai"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " is in the hands of the?"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " ai is in the hands of who"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "? The of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " ai"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " is in the hands of the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "?"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " future"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of ai is in the hands of the"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "? strugg"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "ler of the future of ai is in the"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " hands of the? of"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " the future of ai is in the hands of"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " the? of the future of ai is in"
+    }
+  ],
+  "final_output": " in the hands of the who? The future of ai is in the hands of the? The of ai is in the hands of who? The of ai is in the hands of the? The of the future of ai is in the hands of the? struggler of the future of ai is in the hands of the? of the future of ai is in the hands of the? of the future of ai is in"
+}

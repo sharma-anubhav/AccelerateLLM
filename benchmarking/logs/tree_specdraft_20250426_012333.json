@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-04-26T01:23:21.401694",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 8,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 451,
+    "tree_accepted_tokens": 78,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 19,
+    "tree_avg_branching_factor": 1.069,
+    "tokens_generated": 85
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "?\n"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "The future of AI is in the hands of"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the developers"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ", who"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " are responsible for creating, designing, and and"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " implementing"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " AI"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " systems"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ". They are the ones who have the the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " power"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " to determine"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the future"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " of the"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " technology and the direction"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " it will take. They are the ones who"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " have the power to shape the future of the"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " technology and the direction it will take. They"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " are the ones who have for"
+    }
+  ],
+  "final_output": " in the hands of the who?\nThe future of AI is in the hands of the developers, who are responsible for creating, designing, and and implementing AI systems. They are the ones who have the the power to determine the future of the technology and the direction it will take. They are the ones who have the power to shape the future of the technology and the direction it will take. They are the ones who have for"
+}

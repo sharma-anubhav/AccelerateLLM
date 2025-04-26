@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-04-26T01:18:09.479106",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 90,
+    "tree_accepted_tokens": 38,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 12,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " create"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " it.The"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " future of ai"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " is in the hands of the people"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " create it. The of"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " ai is in the hands of the"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " people"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " create"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " it. The future of is"
+    }
+  ],
+  "final_output": " in the hands of the people who create it.The future of ai is in the hands of the people who create it. The of ai is in the hands of the people who create it. The future of is"
+}

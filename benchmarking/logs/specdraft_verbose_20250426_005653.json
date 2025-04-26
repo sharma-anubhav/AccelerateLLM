@@ -1,0 +1,591 @@
+{
+  "timestamp": "2025-04-26T00:56:37.626210",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 4,
+  "metrics": {
+    "total_iterations": 38,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 104,
+    "corrections_by_target": 19,
+    "tokens_generated": 123,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 81,
+        "proposed": 152
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 23,
+        "proposed": 152
+      }
+    ],
+    "target_generate_calls": 19,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 123,
+    "actual_target_calls": 19,
+    "tokens_saved": 104,
+    "percent_tokens_saved": 84.55
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there was a",
+        "Qwen/Qwen2.5-1.5B": ", there was a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there was a",
+        "Qwen/Qwen2.5-1.5B": ", there was a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " little girl named Lily",
+        "Qwen/Qwen2.5-1.5B": " little girl named Lily"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " little girl named Lily",
+        "Qwen/Qwen2.5-1.5B": " little girl named Lily"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". She lived in",
+        "Qwen/Qwen2.5-1.5B": ". She lived in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". She lived in",
+        "Qwen/Qwen2.5-1.5B": ". She lived in"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a small village with",
+        "Qwen/Qwen2.5-1.5B": " a small village with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a small village",
+        "Qwen/Qwen2.5-1.5B": " a small village"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " with",
+          "corrected_with": " surrounded"
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " by tall trees and",
+        "Qwen/Qwen2.5-1.5B": " by trees and flowers"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " by",
+        "Qwen/Qwen2.5-1.5B": " by"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " tall",
+          "corrected_with": " mountains"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". One day,",
+        "Qwen/Qwen2.5-1.5B": " and forests. One"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " and forests. One"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " day, she decided",
+        "Qwen/Qwen2.5-1.5B": " day, Lily's"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " day,",
+        "Qwen/Qwen2.5-1.5B": " day,"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " she",
+          "corrected_with": " while"
+        }
+      }
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " playing in the woods",
+        "Qwen/Qwen2.5-1.5B": " playing in the forest"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " playing",
+          "corrected_with": " exploring"
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the woods, she",
+        "Qwen/Qwen2.5-1.5B": " the forest, she"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the woods, she",
+        "Qwen/Qwen2.5-1.5B": " the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stumbled upon a hidden",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon a mysterious"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stumbled upon a hidden",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " cave. Intrig",
+        "Qwen/Qwen2.5-1.5B": " cave. Inside the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " cave.",
+        "Qwen/Qwen2.5-1.5B": " cave."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " Intr",
+          "corrected_with": " Cur"
+        }
+      }
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "iosity got the better",
+        "Qwen/Qwen2.5-1.5B": "ious, she decided"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": "ious"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": ",",
+          "corrected_with": " and"
+        }
+      }
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " adventurous, she decided",
+        "Qwen/Qwen2.5-1.5B": " adventurous, she decided"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " adventurous, she decided",
+        "Qwen/Qwen2.5-1.5B": " adventurous, she decided"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " to enter the cave",
+        "Qwen/Qwen2.5-1.5B": " to explore the cave"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " to",
+        "Qwen/Qwen2.5-1.5B": " to"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " enter",
+          "corrected_with": " venture"
+        }
+      }
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " inside.\n\nAs she",
+        "Qwen/Qwen2.5-1.5B": " inside.\n\nAs she"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " inside.\n\nAs she",
+        "Qwen/Qwen2.5-1.5B": " inside.\n\nAs she"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stepped into the cave",
+        "Qwen/Qwen2.5-1.5B": " walked deeper into the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " stepped",
+          "corrected_with": " entered"
+        }
+      }
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the cave, she",
+        "Qwen/Qwen2.5-1.5B": " the cave, she"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the cave, she",
+        "Qwen/Qwen2.5-1.5B": " the cave, she"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " noticed that it was",
+        "Qwen/Qwen2.5-1.5B": " was amazed by the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " noticed that it was",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " much larger than she",
+        "Qwen/Qwen2.5-1.5B": " dark and damp."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " much",
+          "corrected_with": " filled"
+        }
+      }
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " with strange symbols and",
+        "Qwen/Qwen2.5-1.5B": " with strange and beautiful"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " with",
+        "Qwen/Qwen2.5-1.5B": " with"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " strange",
+          "corrected_with": " glitter"
+        }
+      }
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "ing crystals and shimmer",
+        "Qwen/Qwen2.5-1.5B": "ing crystals and sparkling"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "ing crystals and",
+        "Qwen/Qwen2.5-1.5B": "ing crystals and"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " shimmer",
+          "corrected_with": " strange"
+        }
+      }
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " symbols etched onto",
+        "Qwen/Qwen2.5-1.5B": ", glowing plants."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " symbols etched",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " onto",
+          "corrected_with": " into"
+        }
+      }
+    },
+    {
+      "iteration": 23,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the walls. Suddenly",
+        "Qwen/Qwen2.5-1.5B": " the walls. She"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the walls. Suddenly",
+        "Qwen/Qwen2.5-1.5B": " the walls."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 24,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", a soft voice",
+        "Qwen/Qwen2.5-1.5B": ", a voice echoed"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", a",
+        "Qwen/Qwen2.5-1.5B": ", a voice echoed"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 25,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " through the cave,",
+        "Qwen/Qwen2.5-1.5B": " through the cave,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " through the cave,",
+        "Qwen/Qwen2.5-1.5B": " through the cave,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 26,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " \"Welcome, little",
+        "Qwen/Qwen2.5-1.5B": " \"Welcome, little"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " \"Welcome,",
+        "Qwen/Qwen2.5-1.5B": " \"Welcome,"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " little",
+          "corrected_with": " brave"
+        }
+      }
+    },
+    {
+      "iteration": 27,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " adventurer. You have",
+        "Qwen/Qwen2.5-1.5B": " adventurer. I am"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " adventurer.",
+        "Qwen/Qwen2.5-1.5B": " adventurer. I am"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 28,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the guardian of this",
+        "Qwen/Qwen2.5-1.5B": " the guardian of this"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the guardian of this",
+        "Qwen/Qwen2.5-1.5B": " the guardian of this"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 29,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " cave, and I",
+        "Qwen/Qwen2.5-1.5B": " place. You must"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " cave",
+          "corrected_with": " sacred"
+        }
+      }
+    },
+    {
+      "iteration": 30,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " place. I have",
+        "Qwen/Qwen2.5-1.5B": " place. You must"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " place.",
+        "Qwen/Qwen2.5-1.5B": " place. You"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " must",
+          "corrected_with": " have"
+        }
+      }
+    },
+    {
+      "iteration": 31,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " come to claim my",
+        "Qwen/Qwen2.5-1.5B": " been chosen to protect"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " been chosen to"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " protect",
+          "corrected_with": " embark"
+        }
+      }
+    },
+    {
+      "iteration": 32,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " on a journey of",
+        "Qwen/Qwen2.5-1.5B": " on a journey of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " on a",
+        "Qwen/Qwen2.5-1.5B": " on a"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " journey",
+          "corrected_with": " quest"
+        }
+      }
+    },
+    {
+      "iteration": 33,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " to save our world",
+        "Qwen/Qwen2.5-1.5B": " to find the lost"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " to",
+        "Qwen/Qwen2.5-1.5B": " to find the lost"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 34,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " treasure of the ancient",
+        "Qwen/Qwen2.5-1.5B": " city of Eldoria"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " treasure of the ancient",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 35,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " kingdom.\"\n\nLily",
+        "Qwen/Qwen2.5-1.5B": " kingdom.\"\n\nLily"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " kingdom",
+          "corrected_with": " civilization"
+        }
+      }
+    },
+    {
+      "iteration": 36,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ".\"\n\nLily was",
+        "Qwen/Qwen2.5-1.5B": " that once inhabited these"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".\"\n\nLily was",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 37,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " thrilled by the challenge",
+        "Qwen/Qwen2.5-1.5B": " hesitant at first,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " thrilled",
+          "corrected_with": " both"
+        }
+      }
+    },
+    {
+      "iteration": 38,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " excited and nervous.",
+        "Qwen/Qwen2.5-1.5B": " excited and terrified."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " excited and nervous.",
+        "Qwen/Qwen2.5-1.5B": " excited and"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "Once upon a time, there was a little girl named Lily. She lived in a small village surrounded by mountains and forests. One day, while exploring the woods, she stumbled upon a hidden cave. Curious and adventurous, she decided to venture inside.\n\nAs she entered the cave, she noticed that it was filled with glittering crystals and strange symbols etched into the walls. Suddenly, a voice echoed through the cave, \"Welcome, brave adventurer. I am the guardian of this sacred place. You have been chosen to embark on a quest to find the lost treasure of the ancient civilization.\"\n\nLily was both excited and nervous."
+}

@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-04-26T01:15:30.406996",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 622,
+    "tree_accepted_tokens": 37,
+    "tree_bonus_tokens": 3,
+    "tree_verification_calls": 17,
+    "tree_avg_branching_factor": 1.333,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little girl lived"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " in a small village. she"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " was the"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " only the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " child"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of very"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " old father"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " and mother. her"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " parents"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " were not"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " able"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " to work they"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " were"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " very,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " very"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " poor"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". One"
+    }
+  ],
+  "final_output": ", there was a little girl lived in a small village. she was the only the child of very old father and mother. her parents were not able to work they were very, very poor. One"
+}

@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-04-26T01:35:26.221930",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 57,
+    "tree_accepted_tokens": 26,
+    "tree_bonus_tokens": 14,
+    "tree_verification_calls": 21,
+    "tree_avg_branching_factor": 1.111,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", The"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "odora,"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a curious"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " alien"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ", is a"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " member"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " of the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " Galactic"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " Math"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " Club"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ". She is"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " tasked"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " with a complex"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " mission"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ": to save"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " her"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " planet"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " from anverted"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " numbers"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ". Theod"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "ora has a"
+    }
+  ],
+  "final_output": ", Theodora, a curious alien, is a member of the Galactic Math Club. She is tasked with a complex mission: to save her planet from anverted numbers. Theodora has a"
+}

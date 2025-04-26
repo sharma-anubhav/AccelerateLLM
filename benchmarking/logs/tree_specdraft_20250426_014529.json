@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-04-26T01:45:06.063397",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 1199,
+    "tree_accepted_tokens": 123,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 26,
+    "tree_avg_branching_factor": 1.245,
+    "tokens_generated": 125
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " there are 100 planets"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", each with a unique number of moons. to"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the nearest number"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ", what is \\"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "begin&"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "\\sum"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "_{0"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "\\leq\\"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "alpha"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "\\<"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "100}\\sum_{0\\le\\"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "beta"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "<100}\\sum_{0\\le\\"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "gamma"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "<"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "100}\\+\\"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "sum_{0\\le\\beta"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "<100}\\sum_{0\\le\\"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "gamma"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "<"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "100}\\sum_{0\\\\"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "le\\0"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "0<100}\\sum"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "_{0\\le\\00<100"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": "}\\sum_{0\\le0"
+    }
+  ],
+  "final_output": ",, there are 100 planets, each with a unique number of moons. to the nearest number, what is \\begin&\\sum_{0\\leq\\alpha\\<100}\\sum_{0\\le\\beta<100}\\sum_{0\\le\\gamma<100}\\+\\sum_{0\\le\\beta<100}\\sum_{0\\le\\gamma<100}\\sum_{0\\\\le\\00<100}\\sum_{0\\le\\00<100}\\sum_{0\\le0"
+}

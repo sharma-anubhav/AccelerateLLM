@@ -1,0 +1,171 @@
+{
+  "timestamp": "2025-04-26T01:09:27.157217",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 746,
+    "tree_accepted_tokens": 105,
+    "tree_bonus_tokens": 16,
+    "tree_verification_calls": 37,
+    "tree_avg_branching_factor": 1.169,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there lived"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " a little girl named Lily. was"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a kind who"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " loved"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " to help people"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". she"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " always."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " ready to lend a hand"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ". one day, he"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " heard"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " that Mrs"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". Smith, an"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " old lady, was ill"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " in the hospital. she"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " decided what"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " to do. Lily"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " went"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " to the and"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " found that Mrs. Smith was in the hospital"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ". she asked"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the nurse if could"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " visit"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " Mrs went"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " to the."
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " hospital"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ". that"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " afternoon"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ", she down"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " to see Mrs. Smith. the"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " nurse and"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " Mrs. Smith."
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " Lily"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " said"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " to Mrs. Smith, \"I know that"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " you are in"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " the hospital, and I to"
+    }
+  ],
+  "final_output": ", there lived a little girl named Lily. was a kind who loved to help people. she was always. ready to lend a hand. one day, he heard that Mrs. Smith, an old lady, was ill in the hospital. she decided what to do. Lily went to the and found that Mrs. Smith was in the hospital. she asked the nurse if could visit Mrs went to the. hospital. that afternoon, she down to see Mrs. Smith. the nurse and Mrs. Smith. Lily said to Mrs. Smith, \"I know that you are in the hospital, and I to"
+}

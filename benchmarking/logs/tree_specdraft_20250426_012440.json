@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-04-26T01:24:35.799675",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 252,
+    "tree_accepted_tokens": 35,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 13,
+    "tree_avg_branching_factor": 1.231,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " people."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " That"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " is the message of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " a new by"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " a group of  of"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " the world's leading\u91cd\u8981\u539f\u56e0"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "\u5728\u4e8e"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " AI,"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " who are warning"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of the need for urgent"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " action"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " to ensure is"
+    }
+  ],
+  "final_output": " in the hands of the people. That is the message of a new by a group of  of the world's leading\u91cd\u8981\u539f\u56e0\u5728\u4e8e AI, who are warning of the need for urgent action to ensure is"
+}

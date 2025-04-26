@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-04-26T01:04:11.730085",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 6,
+  "metrics": {
+    "total_iterations": 7,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 39,
+    "corrections_by_target": 1,
+    "tokens_generated": 40,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 30,
+        "proposed": 42
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 9,
+        "proposed": 42
+      }
+    ],
+    "target_generate_calls": 1,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 40,
+    "actual_target_calls": 1,
+    "tokens_saved": 39,
+    "percent_tokens_saved": 97.5
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there are three types of",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there are three types of",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stars: red, blue,",
+        "Qwen/Qwen2.5-1.5B": " stars: red, blue,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stars: red, blue,",
+        "Qwen/Qwen2.5-1.5B": " stars: red, blue,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " and green. Each type of",
+        "Qwen/Qwen2.5-1.5B": " and green. The number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " and green. Each type of",
+        "Qwen/Qwen2.5-1.5B": " and green."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " star emits a unique color of",
+        "Qwen/Qwen2.5-1.5B": " star has a different number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " star",
+        "Qwen/Qwen2.5-1.5B": " star has a"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " different",
+          "corrected_with": " unique"
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " number of planets orbiting it",
+        "Qwen/Qwen2.5-1.5B": " number of stars in a cluster"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " number of planets orbiting it",
+        "Qwen/Qwen2.5-1.5B": " number of"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The number of planets orbit",
+        "Qwen/Qwen2.5-1.5B": ". The total number of planets"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". The",
+        "Qwen/Qwen2.5-1.5B": ". The total number of planets"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " in the galaxy is 1",
+        "Qwen/Qwen2.5-1.5B": " in the galaxy is 1"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " in the galaxy is 1",
+        "Qwen/Qwen2.5-1.5B": " in the galaxy is 1"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "In a galaxy far away, there are three types of stars: red, blue, and green. Each type of star has a unique number of planets orbiting it. The total number of planets in the galaxy is 1"
+}

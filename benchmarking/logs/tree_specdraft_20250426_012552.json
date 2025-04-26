@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-04-26T01:25:44.050636",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 379,
+    "tree_accepted_tokens": 83,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 12,
+    "tree_avg_branching_factor": 1.13,
+    "tokens_generated": 85
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the next generation. strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ler the"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " next generation of of"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the next generation of the next generation. of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the next generation. The"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " next generation of the next generation. of the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " next generation. of the next generation. of"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the next generation. of the next."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of the next generation of the next next"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " generation. of next"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " generation. of the next generation. of the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " next generation. of the next generation. of"
+    }
+  ],
+  "final_output": " in the hands of the next generation. struggler the next generation of of the next generation of the next generation. of the next generation. The next generation of the next generation. of the next generation. of the next generation. of the next generation. of the next. of the next generation of the next next generation. of next generation. of the next generation. of the next generation. of the next generation. of"
+}

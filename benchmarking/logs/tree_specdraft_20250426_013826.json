@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-04-26T01:38:16.743553",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 223,
+    "tree_accepted_tokens": 69,
+    "tree_bonus_tokens": 12,
+    "tree_verification_calls": 25,
+    "tree_avg_branching_factor": 1.209,
+    "tokens_generated": 81
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there are 1"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "00 planets"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", each with a population"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " of 10,"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "000. If"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " 10% of"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " the population on each planet"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " is infected with a to"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "ad virus, how many"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " toads are infected"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " in all"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " planets"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " combined"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "?\n"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "To"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " determine"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " the total to"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "ad"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " population in all planets"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ", we to"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " multiply"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " the number of planets strugg"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "ing with the toad"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " virus by the total"
+    }
+  ],
+  "final_output": ", there are 100 planets, each with a population of 10,000. If 10% of the population on each planet is infected with a toad virus, how many toads are infected in all the planets combined?\nTo determine the total toad population in all planets, we to multiply the number of planets strugging with the toad virus by the total"
+}

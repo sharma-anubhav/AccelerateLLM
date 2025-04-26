@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-04-26T01:32:46.497728",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 718,
+    "tree_accepted_tokens": 123,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 21,
+    "tree_avg_branching_factor": 1.297,
+    "tokens_generated": 127
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected for a term of four years. of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " the 1"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "00 senators "
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "1/3 are elected for a "
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "6 year term."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " 1/3 are elected for a 6"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " year"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " term. The/"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "3 are elected for a 6 "
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "/3 are"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " elected for a 6 term"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " 1/3 are elected for a 66"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " 1/3 are elected for a 6 term"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ". 6"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "6 1/3 are elected for a 6"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "6 6"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "6 6."
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "66666666666"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "66666666666"
+    }
+  ],
+  "final_output": " elected for a term of four years. of the 100 senators 1/3 are elected for a 6 year term. 1/3 are elected for a 6 year term. The/3 are elected for a 6 1/3 are elected for a 6 term. 1/3 are elected for a 66 1/3 are elected for a 6 term. 66 1/3 are elected for a 66 66 6.6666666666666666666666"
+}

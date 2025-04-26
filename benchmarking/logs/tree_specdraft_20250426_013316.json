@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-04-26T01:33:06.834133",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 2,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 301,
+    "tree_accepted_tokens": 68,
+    "tree_bonus_tokens": 13,
+    "tree_verification_calls": 28,
+    "tree_avg_branching_factor": 2.168,
+    "tokens_generated": 81
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " the government strugg"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "gling to"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " find a a"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " solution\u304b\u3063\u305f\u3067\u3059"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". TheThe"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " presidentThe"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "The president of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the United strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "gles strugg"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "gled strugg"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": "gledar"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ". He He"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " is the"
+    }
+  ],
+  "final_output": " the head of the government strugggling to find a a solution\u304b\u3063\u305f\u3067\u3059. TheThe presidentTheThe president of the United strugggled strugggles strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggled strugggledar. He He is the"
+}

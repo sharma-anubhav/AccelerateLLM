@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:09:57.668312",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 586,
+    "tree_accepted_tokens": 70,
+    "tree_bonus_tokens": 11,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.132,
+    "tokens_generated": 81
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a young"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " man named Jack. he"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " a good boy, but was"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " very lazy. he"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " didn"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "'t"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " like to do any work. they"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " said he was lazy, he"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " said"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ", \" I"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " am"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " not lazy. i"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " have a clever head"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ", and can"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " do a lot of things. \" he"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " said"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " to himself, \" i"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " will"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " go"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " to the town and buy a watch"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " i"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " will put it it"
+    }
+  ],
+  "final_output": ", there was a young man named Jack. he was a good boy, but was very lazy. he didn't like to do any work. they said he was lazy, he said, \" I am not lazy. i have a clever head, and can do a lot of things. \" he said to himself, \" i will go to the town and buy a watch. i will put it it"
+}

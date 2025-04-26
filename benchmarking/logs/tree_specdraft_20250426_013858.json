@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:38:47.098550",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 6,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 307,
+    "tree_accepted_tokens": 73,
+    "tree_bonus_tokens": 12,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.212,
+    "tokens_generated": 85
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there are three types of a"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "etheric particles: Alpha,ic"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", Gamma"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": ",ic, and E"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "ta"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ",ic. a"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "ether"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "ic is"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " a type of energy that is used"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " to fuel"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the engines of space ships.."
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " energy"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " of"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " a space"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " ship is the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " sum of the energy of its a"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "etheric particle"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " types"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ". A ship"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " has 11"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " Alpha."
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "ics, 1 E"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "ta,ic, and 2"
+    }
+  ],
+  "final_output": ", there are three types of aetheric particles: Alpha,ic, Gamma,ic, and Eta,ic. aetheric is a type of energy that is used to fuel the engines of space ships.. The energy of a space ship is the sum of the energy of its aetheric particle types. A ship has 11 Alpha.ics, 1 Eta,ic, and 2"
+}

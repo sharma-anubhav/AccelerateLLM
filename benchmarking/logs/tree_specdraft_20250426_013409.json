@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-04-26T01:33:56.084535",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 574,
+    "tree_accepted_tokens": 118,
+    "tree_bonus_tokens": 3,
+    "tree_verification_calls": 21,
+    "tree_avg_branching_factor": 1.432,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of the executive branch,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " and"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " the head of the executive"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " branch is the head of the executive"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " branch"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ", and the head of the executive"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " branch is the head of the executive"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " branch, and the head of the"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " executive branch is the head of strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "lE"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ", and the head of the strugg"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "lE, and the head of"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the head of the head of the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " head of the head of the head"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of the head of the head of"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " the head of the head of the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " head of the head of,"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " the head of the head of the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " head of the the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " head of the,"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " the head of the head of of"
+    }
+  ],
+  "final_output": " the head of the executive branch, and the head of the executive branch is the head of the executive branch, and the head of the executive branch is the head of the executive branch, and the head of the executive branch is the head of strugglE, and the head of the strugglE, and the head of the head of the head of the head of the head of the head of the head of the head of the head of the head of the head of the head of, the head of the head of the head of the the head of the, the head of the head of of"
+}

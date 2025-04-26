@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-04-26T01:31:19.918136",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 4,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 415,
+    "tree_accepted_tokens": 112,
+    "tree_bonus_tokens": 8,
+    "tree_verification_calls": 31,
+    "tree_avg_branching_factor": 1.364,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected for a term of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " 4 years. strugg"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "ing for the  current"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " term"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ", the president is the"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " 114"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "th person to hold the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " office, and the president"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of the us"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " in 12"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "00 was the the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " 100th"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " person to hold to"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the office. how many"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " years people"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " have been president of the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " us"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " in 2"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "000?\n\n strugg"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "ing for the  term"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ","
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the president is the of"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " 1"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "1 the"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " 11"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": "4 office"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ", and the president of"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " the us "
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": "20000"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": "00000"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": "00000"
+    }
+  ],
+  "final_output": " elected for a term of 4 years. strugging for the  current term, the president is the 114th person to hold the office, and the president of the us in 1200 was the the 100th person to hold to the office. how many years people have been president of the us in 2000?\n\n strugging for the  term, the president is the of 11 the 114 office, and the president of the us 200000000000000"
+}

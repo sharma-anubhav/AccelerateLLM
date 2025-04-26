@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-04-26T01:36:49.166972",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 401,
+    "tree_accepted_tokens": 105,
+    "tree_bonus_tokens": 15,
+    "tree_verification_calls": 34,
+    "tree_avg_branching_factor": 1.071,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of stars in a cluster is a"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " perfect number"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ", which is"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " a number that is equal to the sum of"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " its div"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "isors, excluding."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " For"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " example,  is"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " a perfect number because its divisors are "
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "1, 3"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ", 1"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ", and 33, and their sum"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " is 6"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". The"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " galaxy"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "'s scientists are"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " studying cluster"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " 2"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "024 and want to know many"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " stars are in it. Can"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " you"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " help"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " them out"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " by finding the number of stars in the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " cluster,"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " given"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " that the number of stars is less"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " than"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " 1000,"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " and the"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " sum"
+    }
+  ],
+  "final_output": ", the number of stars in a cluster is a perfect number, which is a number that is equal to the sum of its divisors, excluding. For example,  is a perfect number because its divisors are 1, 3, 11, and 33, and their sum is 6. The galaxy's scientists are studying cluster 2024 and want to know many stars are in it. Can you help them out by finding the number of stars in the cluster, given that the number of stars is less than 1000, and the sum"
+}

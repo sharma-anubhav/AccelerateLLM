@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-04-26T01:23:01.467928",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 449,
+    "tree_accepted_tokens": 106,
+    "tree_bonus_tokens": 14,
+    "tree_verification_calls": 26,
+    "tree_avg_branching_factor": 1.19,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people of"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " the world. to"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " make it"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " a reality."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " We"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " need"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " to work together to ensure a"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " future where ai"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " is used for the bettermentment"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " of humanity.for"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " example, to"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " make sure that ai is used strugg"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "ly of"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " to make sure that ai to"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " be used in a way that it"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " is"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " not used to"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " harm humanity. to make sure that"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " ai to be used in a way"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " that is"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " not used to harm humanity. strugg"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "ly of the, to make sure"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " that ai to be used in a"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " way that is not used to harm"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " humanity. to make sure that ai"
+    }
+  ],
+  "final_output": " in the hands of the people of the world. to make it a reality. We need to work together to ensure a future where ai is used for the bettermentment of humanity.for example, to make sure that ai is used struggly of the, to make sure that ai to be used in a way that it is not used to harm humanity. to make sure that ai to be used in a way that is not used to harm humanity. struggly of the, to make sure that ai to be used in a way that is not used to harm humanity. to make sure that ai"
+}

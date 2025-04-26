@@ -1,0 +1,334 @@
+{
+  "timestamp": "2025-04-26T00:55:43.858299",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 40,
+  "draft_length": 2,
+  "metrics": {
+    "total_iterations": 22,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 35,
+    "corrections_by_target": 6,
+    "tokens_generated": 41,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 32,
+        "proposed": 44
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 3,
+        "proposed": 44
+      }
+    ],
+    "target_generate_calls": 6,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 41,
+    "actual_target_calls": 6,
+    "tokens_saved": 35,
+    "percent_tokens_saved": 85.37
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there",
+        "Qwen/Qwen2.5-1.5B": ", there"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there",
+        "Qwen/Qwen2.5-1.5B": ", there"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " was a",
+        "Qwen/Qwen2.5-1.5B": " was a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " was a",
+        "Qwen/Qwen2.5-1.5B": " was a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " little girl",
+        "Qwen/Qwen2.5-1.5B": " little girl"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " little girl",
+        "Qwen/Qwen2.5-1.5B": " little girl"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " named Lily",
+        "Qwen/Qwen2.5-1.5B": " named Lily"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " named Lily",
+        "Qwen/Qwen2.5-1.5B": " named Lily"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". She",
+        "Qwen/Qwen2.5-1.5B": ". She"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". She",
+        "Qwen/Qwen2.5-1.5B": ". She"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " lived in",
+        "Qwen/Qwen2.5-1.5B": " lived in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " lived in",
+        "Qwen/Qwen2.5-1.5B": " lived in"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a small",
+        "Qwen/Qwen2.5-1.5B": " a small"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a small",
+        "Qwen/Qwen2.5-1.5B": " a small"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " village with",
+        "Qwen/Qwen2.5-1.5B": " village with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " village",
+        "Qwen/Qwen2.5-1.5B": " village"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " with",
+          "corrected_with": " surrounded"
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " by tall",
+        "Qwen/Qwen2.5-1.5B": " by trees"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " by",
+        "Qwen/Qwen2.5-1.5B": " by"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " tall",
+          "corrected_with": " mountains"
+        }
+      }
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". One",
+        "Qwen/Qwen2.5-1.5B": " and forests"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " and forests"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". One",
+        "Qwen/Qwen2.5-1.5B": ". One"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". One",
+        "Qwen/Qwen2.5-1.5B": ". One"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " day,",
+        "Qwen/Qwen2.5-1.5B": " day,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " day,",
+        "Qwen/Qwen2.5-1.5B": " day,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " she decided",
+        "Qwen/Qwen2.5-1.5B": " Lily's"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " she",
+          "corrected_with": " while"
+        }
+      }
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " playing in",
+        "Qwen/Qwen2.5-1.5B": " playing in"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " playing",
+          "corrected_with": " exploring"
+        }
+      }
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the woods",
+        "Qwen/Qwen2.5-1.5B": " the forest"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the woods",
+        "Qwen/Qwen2.5-1.5B": " the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", she",
+        "Qwen/Qwen2.5-1.5B": ", she"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", she",
+        "Qwen/Qwen2.5-1.5B": ", she"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stumbled upon",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stumbled upon",
+        "Qwen/Qwen2.5-1.5B": " stumbled upon"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a hidden",
+        "Qwen/Qwen2.5-1.5B": " a mysterious"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a hidden",
+        "Qwen/Qwen2.5-1.5B": " a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " cave.",
+        "Qwen/Qwen2.5-1.5B": " cave."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " cave.",
+        "Qwen/Qwen2.5-1.5B": " cave."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " Intrig",
+        "Qwen/Qwen2.5-1.5B": " Inside the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " Intr",
+          "corrected_with": " Cur"
+        }
+      }
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "iosity got",
+        "Qwen/Qwen2.5-1.5B": "ious,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": "ious"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": ",",
+          "corrected_with": " and"
+        }
+      }
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " adventurous,",
+        "Qwen/Qwen2.5-1.5B": " adventurous,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " adventurous,",
+        "Qwen/Qwen2.5-1.5B": " adventurous,"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "Once upon a time, there was a little girl named Lily. She lived in a small village surrounded by mountains and forests. One day, while exploring the woods, she stumbled upon a hidden cave. Curious and adventurous,"
+}

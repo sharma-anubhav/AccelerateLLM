@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-04-26T01:42:14.912716",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 567,
+    "tree_accepted_tokens": 74,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 18,
+    "tree_avg_branching_factor": 1.25,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", A"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ", C"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", and R"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " are three such"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " planets. of"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " A, C, and R, is"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " 1/4"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ", 1/5,2"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "/6"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ", and 1/7 of the number"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of stars in the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " galaxy, respectively. The number of stars in the galaxy"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " is\n ("
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "A) 121"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "0\n (C"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ") 2"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "00\n (D"
+    }
+  ],
+  "final_output": ", A, C, and R are three such planets. of A, C, and R, is 1/4, 1/5,2/6, and 1/7 of the number of stars in the galaxy, respectively. The number of stars in the galaxy is\n (A) 1210\n (C) 2100\n (D"
+}

@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-04-26T01:39:35.290272",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 590,
+    "tree_accepted_tokens": 109,
+    "tree_bonus_tokens": 12,
+    "tree_verification_calls": 38,
+    "tree_avg_branching_factor": 1.1,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", a"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " star"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " system"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " consists"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " of a"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " star and a planet."
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " star"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " has a mass of $M$ and the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " planet has a mass of $m$. The"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " star and the are"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " orbit"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "ing each other in a circular due"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " to their gravitational"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " attraction"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ". The star"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " is at the origin"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " of the at"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " a distance $r$ from the center of"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " the star"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ", and the planet is at a distance $"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "R"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "$"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " from the center of the star, where $"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "R"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " >r"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "$. the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " gravitational"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " force"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " between the star and the is"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " given by $ F"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " = \\ {"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": "GM2"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": "\\ r"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": "2"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": "\\ R"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": "2 \\"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": "over (2"
+    }
+  ],
+  "final_output": ", a star system consists of a star and a planet. The star has a mass of $M$ and the planet has a mass of $m$. The star and the are orbiting each other in a circular due to their gravitational attraction. The star is at the origin of the at a distance $r$ from the center of the star, and the planet is at a distance $R$ from the center of the star, where $R >r$. the gravitational force between the star and the is given by $ F = \\ {GM2\\ r2\\ R2 \\over (2"
+}

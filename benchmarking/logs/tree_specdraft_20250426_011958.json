@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:19:55.580588",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 75,
+    "tree_accepted_tokens": 34,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.154,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " people\n\nThe future of"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " AI"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " is in the hands of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the people\n\nThe future"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of AI is in the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " hands of the people\n\n"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "The future of ai"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "\n\nThe future of AI"
+    }
+  ],
+  "final_output": " in the hands of the people\n\nThe future of AI is in the hands of the people\n\nThe future of AI is in the hands of the people\n\nThe future of ai\n\nThe future of AI"
+}

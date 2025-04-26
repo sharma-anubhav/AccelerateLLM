@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-04-26T01:38:14.024153",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 82,
+    "tree_accepted_tokens": 36,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 9,
+    "tree_avg_branching_factor": 1.188,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there are 1"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "00 planets"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", each with a population"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " of 10,"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "000. If"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " 10% of"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " the population on each planet"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " is infected with a to"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "ad virus, how many"
+    }
+  ],
+  "final_output": ", there are 100 planets, each with a population of 10,000. If 10% of the population on each planet is infected with a toad virus, how many"
+}

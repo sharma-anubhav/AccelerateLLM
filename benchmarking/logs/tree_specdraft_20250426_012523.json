@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-04-26T01:25:13.593776",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 6,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 419,
+    "tree_accepted_tokens": 74,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 17,
+    "tree_avg_branching_factor": 1.367,
+    "tokens_generated": 83
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people."
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " It is up to us to strugg"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "l\nE. It is up"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " to us to make sure that the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " future"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of ai"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is a bright"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " on\nE. It is up"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " to us to make sure that strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "l\nE. It strugg"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "l\nE. It "
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". is up to us to make"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " sure that "
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "2. strugg to"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " 4"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". the future of ai strugg"
+    }
+  ],
+  "final_output": " in the hands of the people. It is up to us to struggl\nE. It is up to us to make sure that the future of ai is a bright on\nE. It is up to us to make sure that struggl\nE. It struggl\nE. It 1. is up to us to make sure that 2. strugg to 4. the future of ai strugg"
+}

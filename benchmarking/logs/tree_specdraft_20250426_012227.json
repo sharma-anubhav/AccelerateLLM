@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-04-26T01:22:24.031462",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 123,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 11,
+    "tree_avg_branching_factor": 1.6,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the palms"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of your."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " . . hands??\n"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "The future of AI is"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " in the palms women"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "\u2019s"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " hands,0"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "00,00"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "0,000"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ",00,0"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "00,,"
+    }
+  ],
+  "final_output": " in the palms of your. . . hands??\nThe future of AI is in the palms women\u2019s hands,000,000,000,00,000,,"
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-04-26T01:33:34.780532",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 152,
+    "tree_accepted_tokens": 29,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 8,
+    "tree_avg_branching_factor": 1.474,
+    "tokens_generated": 31
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the head of the state"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": ", the head of government"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ", the head of the"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " party, and the head"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " of the party"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". president"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " of the United States."
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "<|endoftext|>"
+    }
+  ],
+  "final_output": " the head of the state, the head of government, the head of the party, and the head of the party. president of the United States."
+}

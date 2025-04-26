@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-04-26T01:20:05.065487",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 4,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 252,
+    "tree_accepted_tokens": 106,
+    "tree_bonus_tokens": 18,
+    "tree_verification_calls": 31,
+    "tree_avg_branching_factor": 1.13,
+    "tokens_generated": 124
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " people\n\nThe future of"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " AI"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " is in the hands of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the people\n\nThe future"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " of AI is in the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " hands of the people\n\n"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "The future of ai"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "\n\nThe future of AI"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " is in the hands of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the people\n\nThe future"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " of ai the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " future of ai strugg"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "les to find the"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " right balance between the benefits"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " of ai ai"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " and the ethical"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " and social implications of the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " technology.\n\n"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "The future of ai strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "les to find the the"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " future right"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " balance between the the benefits"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " of ai and the and"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " the implications"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " of the technology.\n\n strugg"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "les future"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " to"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " find the the right of"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " the benefits"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " of ai and the and"
+    }
+  ],
+  "final_output": " in the hands of the people\n\nThe future of AI is in the hands of the people\n\nThe future of AI is in the hands of the people\n\nThe future of ai\n\nThe future of AI is in the hands of the people\n\nThe future of ai the future of ai struggles to find the right balance between the benefits of ai ai and the ethical and social implications of the technology.\n\nThe future of ai struggles to find the the future right balance between the the benefits of ai and the and the implications of the technology.\n\n struggles future to find the the right of the benefits of ai and the and"
+}

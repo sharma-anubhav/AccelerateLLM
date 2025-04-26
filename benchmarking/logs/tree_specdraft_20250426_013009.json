@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-04-26T01:29:58.724712",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 344,
+    "tree_accepted_tokens": 120,
+    "tree_bonus_tokens": 7,
+    "tree_verification_calls": 18,
+    "tree_avg_branching_factor": 1.417,
+    "tokens_generated": 127
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the Electoral College, the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of which is equal"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " to the number of members of the House of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " Representatives and the Senate in the United States."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " The number of members of the House of Representatives"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " is equal to 45"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ", the number of members of the Senate is"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " equal to 100, and the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " number of members of the House of Representatives and"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the Senate in the United States is equal to"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " 3"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": "00. The"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " number of members of the House of Representatives and"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " the Senate in the United States is equal strugg"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "ly to 0"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ".00000000"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "000000000"
+    }
+  ],
+  "final_output": " elected by the Electoral College, the number of which is equal to the number of members of the House of Representatives and the Senate in the United States. The number of members of the House of Representatives is equal to 45, the number of members of the Senate is equal to 100, and the number of members of the House of Representatives and the Senate in the United States is equal to 300. The number of members of the House of Representatives and the Senate in the United States is equal struggly to 0.00000000000000000"
+}

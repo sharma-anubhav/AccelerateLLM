@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-04-26T01:27:09.539246",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 4,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 134,
+    "tree_accepted_tokens": 66,
+    "tree_bonus_tokens": 16,
+    "tree_verification_calls": 25,
+    "tree_avg_branching_factor": 1.067,
+    "tokens_generated": 82
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " head of the state"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " and"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the head of the government"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ".The"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " president is the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " leader"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of the country"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " and the chief"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " executive"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of the state"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". The president is the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " commander"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "-in-chief of the armed"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " forces"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ". The president is elected"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " by the people for strugg"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "ing"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " for the country. The"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " president is the head of"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " the state"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " and the head of the"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " government. The president is"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " the leader of the country"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " and the chief executive of"
+    }
+  ],
+  "final_output": " the head of the state and the head of the government.The president is the leader of the country and the chief executive of the state. The president is the commander-in-chief of the armed forces. The president is elected by the people for strugging for the country. The president is the head of the state and the head of the government. The president is the leader of the country and the chief executive of"
+}

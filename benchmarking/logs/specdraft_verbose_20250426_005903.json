@@ -1,0 +1,856 @@
+{
+  "timestamp": "2025-04-26T00:58:41.951060",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 2,
+  "metrics": {
+    "total_iterations": 63,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 109,
+    "corrections_by_target": 12,
+    "tokens_generated": 121,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 105,
+        "proposed": 126
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 4,
+        "proposed": 126
+      }
+    ],
+    "target_generate_calls": 12,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 121,
+    "actual_target_calls": 12,
+    "tokens_saved": 109,
+    "percent_tokens_saved": 90.08
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " in the",
+        "Qwen/Qwen2.5-1.5B": " bright,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " in",
+          "corrected_with": " here"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The",
+        "Qwen/Qwen2.5-1.5B": ". The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " The",
+          "corrected_with": " It"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s time",
+        "Qwen/Qwen2.5-1.5B": "\u2019s time"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s",
+        "Qwen/Qwen2.5-1.5B": "\u2019s"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " time",
+          "corrected_with": " not"
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " just a",
+        "Qwen/Qwen2.5-1.5B": " just a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " just a",
+        "Qwen/Qwen2.5-1.5B": " just a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " buzzword",
+        "Qwen/Qwen2.5-1.5B": " buzzword"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " buzzword",
+        "Qwen/Qwen2.5-1.5B": " buzzword"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", it",
+        "Qwen/Qwen2.5-1.5B": ", but"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ",",
+          "corrected_with": " anymore"
+        }
+      }
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". It",
+        "Qwen/Qwen2.5-1.5B": ". It"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". It",
+        "Qwen/Qwen2.5-1.5B": ". It"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s a",
+        "Qwen/Qwen2.5-1.5B": "\u2019s a"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s a",
+        "Qwen/Qwen2.5-1.5B": "\u2019s a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " reality.",
+        "Qwen/Qwen2.5-1.5B": " reality."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " reality",
+        "Qwen/Qwen2.5-1.5B": " reality"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ".",
+          "corrected_with": " that"
+        }
+      }
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing",
+        "Qwen/Qwen2.5-1.5B": " is changing"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the way",
+        "Qwen/Qwen2.5-1.5B": " the way"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the way",
+        "Qwen/Qwen2.5-1.5B": " the way"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " we live",
+        "Qwen/Qwen2.5-1.5B": " we live"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " we live",
+        "Qwen/Qwen2.5-1.5B": " we live"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", work",
+        "Qwen/Qwen2.5-1.5B": ", work"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", work",
+        "Qwen/Qwen2.5-1.5B": ", work"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", and",
+        "Qwen/Qwen2.5-1.5B": ", and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", and",
+        "Qwen/Qwen2.5-1.5B": ", and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " interact with",
+        "Qwen/Qwen2.5-1.5B": " interact with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " interact with",
+        "Qwen/Qwen2.5-1.5B": " interact with"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the world",
+        "Qwen/Qwen2.5-1.5B": " the world"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " the",
+          "corrected_with": " technology"
+        }
+      }
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". From",
+        "Qwen/Qwen2.5-1.5B": ". From"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " From",
+          "corrected_with": " But"
+        }
+      }
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " what exactly",
+        "Qwen/Qwen2.5-1.5B": " what exactly"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " what exactly",
+        "Qwen/Qwen2.5-1.5B": " what exactly"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is AI",
+        "Qwen/Qwen2.5-1.5B": " is AI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is AI",
+        "Qwen/Qwen2.5-1.5B": " is AI"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", and",
+        "Qwen/Qwen2.5-1.5B": ", and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", and",
+        "Qwen/Qwen2.5-1.5B": ", and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " how is",
+        "Qwen/Qwen2.5-1.5B": " how does"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " how is",
+        "Qwen/Qwen2.5-1.5B": " how"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " it transforming",
+        "Qwen/Qwen2.5-1.5B": " it changing"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " it transforming",
+        "Qwen/Qwen2.5-1.5B": " it"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 23,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " our world",
+        "Qwen/Qwen2.5-1.5B": " our world"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " our world",
+        "Qwen/Qwen2.5-1.5B": " our world"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 24,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "? In",
+        "Qwen/Qwen2.5-1.5B": "? In"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "? In",
+        "Qwen/Qwen2.5-1.5B": "? In"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 25,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " this article",
+        "Qwen/Qwen2.5-1.5B": " this article"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " this article",
+        "Qwen/Qwen2.5-1.5B": " this article"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 26,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", we",
+        "Qwen/Qwen2.5-1.5B": ", we"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", we",
+        "Qwen/Qwen2.5-1.5B": ", we"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 27,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019ll explore",
+        "Qwen/Qwen2.5-1.5B": "\u2019ll explore"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019ll explore",
+        "Qwen/Qwen2.5-1.5B": "\u2019ll explore"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 28,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the basics",
+        "Qwen/Qwen2.5-1.5B": " the basics"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the basics",
+        "Qwen/Qwen2.5-1.5B": " the basics"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 29,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of AI",
+        "Qwen/Qwen2.5-1.5B": " of AI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of AI",
+        "Qwen/Qwen2.5-1.5B": " of AI"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 30,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", its",
+        "Qwen/Qwen2.5-1.5B": ", its"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", its",
+        "Qwen/Qwen2.5-1.5B": ", its"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 31,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " applications,",
+        "Qwen/Qwen2.5-1.5B": " applications,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " applications,",
+        "Qwen/Qwen2.5-1.5B": " applications,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 32,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " and its",
+        "Qwen/Qwen2.5-1.5B": " and the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " and its",
+        "Qwen/Qwen2.5-1.5B": " and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 33,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " potential impact",
+        "Qwen/Qwen2.5-1.5B": " potential impact"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " potential",
+          "corrected_with": " impact"
+        }
+      }
+    },
+    {
+      "iteration": 34,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " on society",
+        "Qwen/Qwen2.5-1.5B": " on society"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " on society",
+        "Qwen/Qwen2.5-1.5B": " on society"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 35,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ".\nWhat",
+        "Qwen/Qwen2.5-1.5B": ". We"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".\nWhat",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 36,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is AI",
+        "Qwen/Qwen2.5-1.5B": " is AI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is AI",
+        "Qwen/Qwen2.5-1.5B": " is AI"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 37,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "?\nArt",
+        "Qwen/Qwen2.5-1.5B": "?\nAI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "?\nArt",
+        "Qwen/Qwen2.5-1.5B": "?\n"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 38,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "ificial Intelligence",
+        "Qwen/Qwen2.5-1.5B": "ificial intelligence"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "ificial Intelligence",
+        "Qwen/Qwen2.5-1.5B": "ificial"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 39,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " (AI",
+        "Qwen/Qwen2.5-1.5B": " (AI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " (AI",
+        "Qwen/Qwen2.5-1.5B": " (AI"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 40,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ") is",
+        "Qwen/Qwen2.5-1.5B": ") is"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ") is",
+        "Qwen/Qwen2.5-1.5B": ") is"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 41,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a branch",
+        "Qwen/Qwen2.5-1.5B": " the simulation"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a branch",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 42,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of computer",
+        "Qwen/Qwen2.5-1.5B": " of computer"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of computer",
+        "Qwen/Qwen2.5-1.5B": " of computer"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 43,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " science that",
+        "Qwen/Qwen2.5-1.5B": " science that"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " science that",
+        "Qwen/Qwen2.5-1.5B": " science that"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 44,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " focuses on",
+        "Qwen/Qwen2.5-1.5B": " focuses on"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " focuses on",
+        "Qwen/Qwen2.5-1.5B": " focuses on"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 45,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " creating intelligent",
+        "Qwen/Qwen2.5-1.5B": " creating intelligent"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " creating",
+        "Qwen/Qwen2.5-1.5B": " creating"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " intelligent",
+          "corrected_with": " machines"
+        }
+      }
+    },
+    {
+      "iteration": 46,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " that can",
+        "Qwen/Qwen2.5-1.5B": " that can"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " that can",
+        "Qwen/Qwen2.5-1.5B": " that can"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 47,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " perform tasks",
+        "Qwen/Qwen2.5-1.5B": " perform tasks"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " perform tasks",
+        "Qwen/Qwen2.5-1.5B": " perform tasks"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 48,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " that typically",
+        "Qwen/Qwen2.5-1.5B": " that typically"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " that typically",
+        "Qwen/Qwen2.5-1.5B": " that typically"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 49,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " require human",
+        "Qwen/Qwen2.5-1.5B": " require human"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " require human",
+        "Qwen/Qwen2.5-1.5B": " require human"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 50,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " intelligence.",
+        "Qwen/Qwen2.5-1.5B": " intelligence."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " intelligence.",
+        "Qwen/Qwen2.5-1.5B": " intelligence."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 51,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " AI systems",
+        "Qwen/Qwen2.5-1.5B": " These tasks"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " These tasks"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 52,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " include speech",
+        "Qwen/Qwen2.5-1.5B": " include understanding"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " include",
+        "Qwen/Qwen2.5-1.5B": " include"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " speech",
+          "corrected_with": " learning"
+        }
+      }
+    },
+    {
+      "iteration": 53,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", reasoning",
+        "Qwen/Qwen2.5-1.5B": ", reasoning"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", reasoning",
+        "Qwen/Qwen2.5-1.5B": ", reasoning"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 54,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", problem",
+        "Qwen/Qwen2.5-1.5B": ", problem"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", problem",
+        "Qwen/Qwen2.5-1.5B": ", problem"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 55,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "-solving,",
+        "Qwen/Qwen2.5-1.5B": "-solving,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "-solving,",
+        "Qwen/Qwen2.5-1.5B": "-solving,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 56,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " perception,",
+        "Qwen/Qwen2.5-1.5B": " and decision"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " perception,",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 57,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " and language",
+        "Qwen/Qwen2.5-1.5B": " and language"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " and language",
+        "Qwen/Qwen2.5-1.5B": " and language"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 58,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " understanding.\n",
+        "Qwen/Qwen2.5-1.5B": " understanding."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " understanding",
+        "Qwen/Qwen2.5-1.5B": " understanding."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 59,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " AI systems",
+        "Qwen/Qwen2.5-1.5B": " AI systems"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " AI systems",
+        "Qwen/Qwen2.5-1.5B": " AI systems"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 60,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " are designed",
+        "Qwen/Qwen2.5-1.5B": " use algorithms"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " are",
+          "corrected_with": " can"
+        }
+      }
+    },
+    {
+      "iteration": 61,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " be programmed",
+        "Qwen/Qwen2.5-1.5B": " be trained"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " be",
+        "Qwen/Qwen2.5-1.5B": " be"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " programmed",
+          "corrected_with": " designed"
+        }
+      }
+    },
+    {
+      "iteration": 62,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " to mimic",
+        "Qwen/Qwen2.5-1.5B": " to mimic"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " to mimic",
+        "Qwen/Qwen2.5-1.5B": " to mimic"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 63,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " human behavior",
+        "Qwen/Qwen2.5-1.5B": " human behavior"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " human behavior",
+        "Qwen/Qwen2.5-1.5B": " human behavior"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "The future of AI is here. It\u2019s not just a buzzword anymore. It\u2019s a reality that\u2019s changing the way we live, work, and interact with technology. But what exactly is AI, and how is it transforming our world? In this article, we\u2019ll explore the basics of AI, its applications, and its impact on society.\nWhat is AI?\nArtificial Intelligence (AI) is a branch of computer science that focuses on creating machines that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding. AI systems can be designed to mimic human behavior"
+}

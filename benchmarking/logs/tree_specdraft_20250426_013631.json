@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:36:21.497683",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 182,
+    "tree_accepted_tokens": 111,
+    "tree_bonus_tokens": 10,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.12,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of planets"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in a system is given"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " by the formulaN"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " = 10000"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "00 * (1 + "
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "0.00000"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " *"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " ( p"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " +"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " 100000"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "0 * ( +"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " 100000"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "0 * ( + 10"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "00000 * ("
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " + 10000"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": "00 * ( + 1"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "000000 *"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " ( + 1000"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "000 * ( + "
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "1000000"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " * ( + 100"
+    }
+  ],
+  "final_output": ", the number of planets in a system is given by the formulaN = 1000000 * (1 + 0.000001 * ( p + 1000000 * ( + 1000000 * ( + 1000000 * ( + 1000000 * ( + 1000000 * ( + 1000000 * ( + 1000000 * ( + 100"
+}

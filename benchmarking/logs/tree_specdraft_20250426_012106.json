@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:20:51.258182",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 455,
+    "tree_accepted_tokens": 110,
+    "tree_bonus_tokens": 12,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.278,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "?\nA"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": ". AI\nB. Both"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " A and C"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "\n D"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". None of the above\nAnswer."
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " B. Both A and C\nExplanation strugg"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "ler. The of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the future of AI is in the hands strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "ler. of who"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ". The of the future of AI."
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " is in the hands of who"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " of the future of ai"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ". is in the hands of who?\n"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "A. A"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". The"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " of"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " the future of ai of"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " the future of ai."
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " is in the hands of who. the of"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the future of ai. is in the hands"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " of whoC"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ". The."
+    }
+  ],
+  "final_output": " in the hands of the who?\nA. AI\nB. Both A and C\n D. None of the above\nAnswer. B. Both A and C\nExplanation struggler. The of the future of AI is in the hands struggler. of who. The of the future of AI. is in the hands of who. the of the future of ai. is in the hands of who?\nA. A. The of the future of ai of the future of ai. is in the hands of who. the of the future of ai. is in the hands of whoC. The."
+}

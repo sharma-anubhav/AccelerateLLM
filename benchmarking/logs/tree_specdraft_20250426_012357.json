@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-04-26T01:23:54.025337",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 10,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 161,
+    "tree_accepted_tokens": 18,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 6,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 20
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "?\n"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "The future of ai"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " is in the future"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " of the"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " who.<|endoftext|>"
+    }
+  ],
+  "final_output": " in the hands of the who?\nThe future of ai is in the future of the who."
+}

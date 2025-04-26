@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-04-26T01:27:46.045721",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 228,
+    "tree_accepted_tokens": 104,
+    "tree_bonus_tokens": 17,
+    "tree_verification_calls": 29,
+    "tree_avg_branching_factor": 1.0,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " head of the government"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " and the commander"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "-in-chief of the armed."
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " He"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " is the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " most"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " powerful"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " person"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " in the world. The"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " president is the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " head of the government"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " and."
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " president is the commander"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "-in-chief of the armed."
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " He"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " is the most powerful person in the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " world. The president is the head"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " of the government and the commander-in"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "-chief of the armed. He is"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the most powerful person in the world"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " president is the head of the government"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " and the commander-in-chief of the"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " armed. he"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " is the most powerful person in the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " world. the president is the head"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " of the government and the commander-in"
+    }
+  ],
+  "final_output": " the head of the government and the commander-in-chief of the armed. He is the most powerful person in the world. The president is the head of the government and. The president is the commander-in-chief of the armed. He is the most powerful person in the world. The president is the head of the government and the commander-in-chief of the armed. He is the most powerful person in the world. the president is the head of the government and the commander-in-chief of the armed. he is the most powerful person in the world. the president is the head of the government and the commander-in"
+}

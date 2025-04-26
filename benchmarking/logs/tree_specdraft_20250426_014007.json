@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-04-26T01:40:00.339746",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 260,
+    "tree_accepted_tokens": 35,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 11,
+    "tree_avg_branching_factor": 1.133,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", A"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "iden"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " is a"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " young"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " astronom"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "er who lives"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " on a planet that is"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " 100 light-years away from the of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the."
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " One "
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": "100 light-years is the distance that light "
+    }
+  ],
+  "final_output": ", Aiden is a young astronomer who lives on a planet that is 100 light-years away from the of the. One 100 light-years is the distance that light "
+}

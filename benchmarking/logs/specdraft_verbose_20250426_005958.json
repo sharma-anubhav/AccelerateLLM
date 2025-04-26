@@ -1,0 +1,434 @@
+{
+  "timestamp": "2025-04-26T00:59:44.820448",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 6,
+  "metrics": {
+    "total_iterations": 27,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 109,
+    "corrections_by_target": 14,
+    "tokens_generated": 123,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 103,
+        "proposed": 162
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 6,
+        "proposed": 162
+      }
+    ],
+    "target_generate_calls": 14,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 123,
+    "actual_target_calls": 14,
+    "tokens_saved": 109,
+    "percent_tokens_saved": 88.62
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " in the hands of the people",
+        "Qwen/Qwen2.5-1.5B": " bright, but it\u2019s not"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " in",
+          "corrected_with": " here"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The technology is advancing at",
+        "Qwen/Qwen2.5-1.5B": ". The question is, what"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " The",
+          "corrected_with": " It"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s time to get ready.\n",
+        "Qwen/Qwen2.5-1.5B": "\u2019s time to embrace it.\n"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s",
+        "Qwen/Qwen2.5-1.5B": "\u2019s"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " time",
+          "corrected_with": " not"
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " just a buzzword, it",
+        "Qwen/Qwen2.5-1.5B": " just a buzzword, but"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " just a buzzword",
+        "Qwen/Qwen2.5-1.5B": " just a buzzword"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ",",
+          "corrected_with": " anymore"
+        }
+      }
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". It\u2019s a reality.",
+        "Qwen/Qwen2.5-1.5B": ". It\u2019s a reality."
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". It\u2019s a reality",
+        "Qwen/Qwen2.5-1.5B": ". It\u2019s a reality"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ".",
+          "corrected_with": " that"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing the way we live",
+        "Qwen/Qwen2.5-1.5B": " is changing the way we live"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019s changing the way we live",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", work, and interact with",
+        "Qwen/Qwen2.5-1.5B": ", work, and interact with"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", work, and interact with",
+        "Qwen/Qwen2.5-1.5B": ", work, and interact with"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the world around us. From",
+        "Qwen/Qwen2.5-1.5B": " the world around us. From"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " the",
+          "corrected_with": " technology"
+        }
+      }
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". From self-driving cars to",
+        "Qwen/Qwen2.5-1.5B": ". From self-driving cars to"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ".",
+        "Qwen/Qwen2.5-1.5B": "."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " From",
+          "corrected_with": " But"
+        }
+      }
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " what exactly is AI, and",
+        "Qwen/Qwen2.5-1.5B": " what exactly is AI, and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " what exactly is AI, and",
+        "Qwen/Qwen2.5-1.5B": " what exactly is AI, and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " how is it transforming our world",
+        "Qwen/Qwen2.5-1.5B": " how does it work? In"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " how is it transforming our world",
+        "Qwen/Qwen2.5-1.5B": " how"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "? In this article, we",
+        "Qwen/Qwen2.5-1.5B": "? In this article, we"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "? In this article, we",
+        "Qwen/Qwen2.5-1.5B": "? In this article, we"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "\u2019ll explore the basics of AI",
+        "Qwen/Qwen2.5-1.5B": "\u2019ll explore the basics of AI"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "\u2019ll explore the basics of AI",
+        "Qwen/Qwen2.5-1.5B": "\u2019ll explore the basics of AI"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", its applications, and its",
+        "Qwen/Qwen2.5-1.5B": ", its applications, and the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", its applications, and its",
+        "Qwen/Qwen2.5-1.5B": ", its applications, and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " potential impact on society.\nWhat",
+        "Qwen/Qwen2.5-1.5B": " potential impact on society.\nWhat"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " potential",
+          "corrected_with": " impact"
+        }
+      }
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " on society.\nWhat is AI",
+        "Qwen/Qwen2.5-1.5B": " on society. We\u2019ll also"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " on society.\nWhat is AI",
+        "Qwen/Qwen2.5-1.5B": " on society"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "?\nArtificial Intelligence (AI",
+        "Qwen/Qwen2.5-1.5B": "?\nAI, or artificial intelligence"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "?\nArtificial Intelligence (AI",
+        "Qwen/Qwen2.5-1.5B": "?\n"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ") is a branch of computer",
+        "Qwen/Qwen2.5-1.5B": ") is the simulation of human"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ") is a branch of computer",
+        "Qwen/Qwen2.5-1.5B": ") is"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " science that focuses on creating intelligent",
+        "Qwen/Qwen2.5-1.5B": " science that focuses on creating intelligent"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " science that focuses on creating",
+        "Qwen/Qwen2.5-1.5B": " science that focuses on creating"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " intelligent",
+          "corrected_with": " machines"
+        }
+      }
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " that can perform tasks that typically",
+        "Qwen/Qwen2.5-1.5B": " that can perform tasks that typically"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " that can perform tasks that typically",
+        "Qwen/Qwen2.5-1.5B": " that can perform tasks that typically"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " require human intelligence. AI systems",
+        "Qwen/Qwen2.5-1.5B": " require human intelligence. These tasks"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " require human intelligence.",
+        "Qwen/Qwen2.5-1.5B": " require human intelligence. These tasks"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " include speech recognition, decision-making",
+        "Qwen/Qwen2.5-1.5B": " include understanding natural language, recognizing"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " include",
+        "Qwen/Qwen2.5-1.5B": " include"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " speech",
+          "corrected_with": " learning"
+        }
+      }
+    },
+    {
+      "iteration": 23,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", reasoning, problem-solving,",
+        "Qwen/Qwen2.5-1.5B": ", reasoning, problem-solving,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", reasoning, problem-solving,",
+        "Qwen/Qwen2.5-1.5B": ", reasoning, problem-solving,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 24,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " perception, and language understanding.\n",
+        "Qwen/Qwen2.5-1.5B": " and decision-making. AI systems"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " perception, and language understanding",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": ".\n",
+          "corrected_with": "."
+        }
+      }
+    },
+    {
+      "iteration": 25,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " AI systems are designed to mimic",
+        "Qwen/Qwen2.5-1.5B": " AI systems use algorithms and statistical"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " AI systems",
+        "Qwen/Qwen2.5-1.5B": " AI systems"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " are",
+          "corrected_with": " can"
+        }
+      }
+    },
+    {
+      "iteration": 26,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " be programmed to learn from data",
+        "Qwen/Qwen2.5-1.5B": " be trained to recognize patterns,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " be",
+        "Qwen/Qwen2.5-1.5B": " be"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " programmed",
+          "corrected_with": " designed"
+        }
+      }
+    },
+    {
+      "iteration": 27,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " to mimic human behavior, think",
+        "Qwen/Qwen2.5-1.5B": " to mimic human behavior and decision"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " to mimic human behavior,",
+        "Qwen/Qwen2.5-1.5B": " to mimic human behavior"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " think",
+          "corrected_with": " but"
+        }
+      }
+    }
+  ],
+  "final_output": "The future of AI is here. It\u2019s not just a buzzword anymore. It\u2019s a reality that\u2019s changing the way we live, work, and interact with technology. But what exactly is AI, and how is it transforming our world? In this article, we\u2019ll explore the basics of AI, its applications, and its impact on society.\nWhat is AI?\nArtificial Intelligence (AI) is a branch of computer science that focuses on creating machines that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding. AI systems can be designed to mimic human behavior, but"
+}

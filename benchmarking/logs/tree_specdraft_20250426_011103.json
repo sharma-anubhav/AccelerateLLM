@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-04-26T01:10:50.358391",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 260,
+    "tree_accepted_tokens": 117,
+    "tree_bonus_tokens": 3,
+    "tree_verification_calls": 41,
+    "tree_avg_branching_factor": 1.5,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " there was,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " in"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a certain strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ly,ly"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ",ly a"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " man named name"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ",ly"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": ",lyly"
+    }
+  ],
+  "final_output": " there was, in a certain struggly,ly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,ly a man named name,ly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly"
+}

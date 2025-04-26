@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-04-26T01:16:37.298302",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 10,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 589,
+    "tree_accepted_tokens": 41,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 13,
+    "tree_avg_branching_factor": 1.381,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little girl who loved to play in"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " the park. he"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " would run and"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " play with"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " her"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " friends"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ", slide"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " down"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the slide slide"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ", and climb"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the bars"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". one"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " day, the little girl was playing in"
+    }
+  ],
+  "final_output": ", there was a little girl who loved to play in the park. he would run and play with her friends, slide down the slide slide, and climb the bars. one day, the little girl was playing in"
+}

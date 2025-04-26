@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:09:05.443862",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 8,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 264,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.19,
+    "tokens_generated": 44
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there lived"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " a little girl named Lily. was"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a kind who"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " loved"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " to help people"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". she"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " was"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " always."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " ready to lend a hand"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ". one day, he"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " heard"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " that Mrs"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". Smith, an"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " old lady, was ill"
+    }
+  ],
+  "final_output": ", there lived a little girl named Lily. was a kind who loved to help people. she was always. ready to lend a hand. one day, he heard that Mrs. Smith, an old lady, was ill"
+}

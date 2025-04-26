@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-04-26T01:36:08.592653",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 105,
+    "tree_accepted_tokens": 34,
+    "tree_bonus_tokens": 6,
+    "tree_verification_calls": 12,
+    "tree_avg_branching_factor": 1.154,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " number"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " of planets"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " in a system is given"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " by the formulaN"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " = 10000"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": "00 * (1 + "
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "0.00000"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "1"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " *"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " ( p"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " +"
+    }
+  ],
+  "final_output": ", the number of planets in a system is given by the formulaN = 1000000 * (1 + 0.000001 * ( p +"
+}

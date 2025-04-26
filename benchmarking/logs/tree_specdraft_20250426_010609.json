@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-04-26T01:05:55.369697",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 4,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 239,
+    "tree_accepted_tokens": 94,
+    "tree_bonus_tokens": 29,
+    "tree_verification_calls": 39,
+    "tree_avg_branching_factor": 1.204,
+    "tokens_generated": 123
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",1"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "00 prisoners were locked"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " in a room."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " The next"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ", the warden were"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " going to play"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " a game with them."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The game"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " was as follows: the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " w"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "arden"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " would take"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " a number from  ,"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "  ,  ,...,"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": "  and put it on"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " a piece of paper."
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " Then"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ", he would put the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " paper"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " in a room"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " The next"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ", the prisonerswould"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " be allowed to enter"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " the room. The"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " prisoners would be allowed to"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " open"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " the room"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " and see"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " the number on the paper"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": ". After"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " that, they be"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " allowed to leave the room"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " prisoners would be allowed to"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " do"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " this 100"
+    }
+  ],
+  "final_output": ",100 prisoners were locked in a room. The next day, the warden were going to play a game with them. The game was as follows: the warden would take a number from  ,  ,  ,...,  and put it on a piece of paper. Then, he would put the paper in a room. The next day, the prisonerswould be allowed to enter the room. The prisoners would be allowed to open the room and see the number on the paper. After that, they be allowed to leave the room. the prisoners would be allowed to do this 100"
+}

@@ -1,0 +1,143 @@
+{
+  "timestamp": "2025-04-26T01:17:01.900016",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 1319,
+    "tree_accepted_tokens": 117,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 30,
+    "tree_avg_branching_factor": 1.34,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little girl who loved to play in"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " the park. he"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " would run and"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " play with"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " her"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " friends"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ", slide"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " down"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the slide slide"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ", and climb"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the bars"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ". one"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " day, the little girl was playing in"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the park when she was"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " hit by a car. the little girl was taken to"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " the hospital, and the doctors told that"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " she a"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " life-threatening injury. the little girl was"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " in a coma for a"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " long time."
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " the doctors"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " were not sure she"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " would"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " ever"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " wake up. one and"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " a half years after the accident, the little girl woke"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " up. she was very"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " weak, but could"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " move"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " her her"
+    }
+  ],
+  "final_output": ", there was a little girl who loved to play in the park. he would run and play with her friends, slide down the slide slide, and climb the bars. one day, the little girl was playing in the park when she was hit by a car. the little girl was taken to the hospital, and the doctors told that she a life-threatening injury. the little girl was in a coma for a long time. the doctors were not sure she would ever wake up. one and a half years after the accident, the little girl woke up. she was very weak, but could move her her"
+}

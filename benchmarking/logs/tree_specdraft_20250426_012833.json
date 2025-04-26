@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:28:24.230349",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 10,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 174,
+    "tree_accepted_tokens": 114,
+    "tree_bonus_tokens": 8,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.067,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " a man who is elected by the people of the usa"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " president of the usa is a"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " man who is elected by the people of the usa."
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " The president of the usa is a man who is elected"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " by the people of the usa. The president of the"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " usa is a man who is elected by the people of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the usa. the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " president of the usa is a man who is elected by"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the people of the usa. the president of the usa"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " is a man who is elected by the people of the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " usa. the president of the usa is a man who"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " is elected by the people of the usa. the president"
+    }
+  ],
+  "final_output": " a man who is elected by the people of the usa. The president of the usa is a man who is elected by the people of the usa. The president of the usa is a man who is elected by the people of the usa. The president of the usa is a man who is elected by the people of the usa. the president of the usa is a man who is elected by the people of the usa. the president of the usa is a man who is elected by the people of the usa. the president of the usa is a man who is elected by the people of the usa. the president"
+}

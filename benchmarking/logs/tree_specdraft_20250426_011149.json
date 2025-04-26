@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-04-26T01:11:37.164319",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 6,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 461,
+    "tree_accepted_tokens": 68,
+    "tree_bonus_tokens": 15,
+    "tree_verification_calls": 25,
+    "tree_avg_branching_factor": 1.184,
+    "tokens_generated": 83
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little girl who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " loved"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " to learn"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " about"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the world around her. She she"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "ared"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " her into"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " a tale"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of a little who"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " loved to learn about the world around"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " her. she"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " was a curious"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " and"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " adventurous d"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "uchert"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", who always"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " had"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " a thirst book"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " in her."
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " She"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " was a curious and adventurous little strugg"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ", who had"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " a thirst for knowledge. she"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " was a curious and adventurous little strugg"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ", who had learn"
+    }
+  ],
+  "final_output": ", there was a little girl who loved to learn about the world around her. She sheared her into a tale of a little who loved to learn about the world around her. she was a curious and adventurous duchert, who always had a thirst book in her. She was a curious and adventurous little strugg, who had a thirst for knowledge. she was a curious and adventurous little strugg, who had learn"
+}

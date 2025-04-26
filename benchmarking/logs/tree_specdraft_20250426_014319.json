@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-04-26T01:43:00.933906",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 2,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 453,
+    "tree_accepted_tokens": 112,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 42,
+    "tree_avg_branching_factor": 1.961,
+    "tokens_generated": 121
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "els"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a great strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "l between the"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " forces and"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " the energy."
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " The great energy"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " of the force"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " of the energy"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " of the force"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " of the the"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " the the strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "l betweenC"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "th"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": " the the the"
+    },
+    {
+      "iteration": 42,
+      "accepted_tokens": " the the the"
+    }
+  ],
+  "final_output": ", there struggels a great struggl between the forces and the energy. The great energy of the force of the energy of the force of the the the the the the the the the the the the the the the the the the the the the the the the the the the the struggl betweenCth the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the"
+}

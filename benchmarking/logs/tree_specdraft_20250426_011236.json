@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-04-26T01:12:22.194688",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 479,
+    "tree_accepted_tokens": 120,
+    "tree_bonus_tokens": 2,
+    "tree_verification_calls": 23,
+    "tree_avg_branching_factor": 1.139,
+    "tokens_generated": 122
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a girl"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " who a"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": "woke"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " one"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " morning to find that he"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " was no longer a girl, a"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " boy, or a"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " cat"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ","
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " but a frog. was"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " it a dream, or was it it"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " was a dream, or was it a a"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " dream, or was it a dream a"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " dream, or was it a dream, or"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " was it dream"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": ", or was it dream a"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " dream, or was it a dream, or"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " was it dream was"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " a dream, or was it dream"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ", or was it dream, or was it"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " dream a,"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " or was it dream a was"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " a dream, or was it a dream,"
+    }
+  ],
+  "final_output": ", there was a girl who awoke one morning to find that he was no longer a girl, a boy, or a cat, but a frog. was it a dream, or was it it was a dream, or was it a a dream, or was it a dream a dream, or was it a dream, or was it dream, or was it dream a dream, or was it a dream, or was it dream was a dream, or was it dream, or was it dream, or was it dream a, or was it dream a was a dream, or was it a dream,"
+}

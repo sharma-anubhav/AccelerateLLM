@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-04-26T01:15:03.203624",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 6,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 1184,
+    "tree_accepted_tokens": 103,
+    "tree_bonus_tokens": 17,
+    "tree_verification_calls": 41,
+    "tree_avg_branching_factor": 1.5,
+    "tokens_generated": 120
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ", there was a little boy strugg"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "ing to climb"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " tree.1"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ". but"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " the boy"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " was determined to reach"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " the top of."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": "2"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ". the tree, no"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " matter how."
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "3"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ". tall"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " it."
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "4. the boy"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " was.6"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". tired"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ", but,"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " he on"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": ".4"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": ". boy"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": ".7"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": ". was"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": ".5"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": ". tired to"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": ".9"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": ".12"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": ". boy,"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": " the.10"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": ". tree.111"
+    },
+    {
+      "iteration": 32,
+      "accepted_tokens": ". the.1."
+    },
+    {
+      "iteration": 33,
+      "accepted_tokens": " the. "
+    },
+    {
+      "iteration": 34,
+      "accepted_tokens": "23"
+    },
+    {
+      "iteration": 35,
+      "accepted_tokens": ". the.2"
+    },
+    {
+      "iteration": 36,
+      "accepted_tokens": ". boy"
+    },
+    {
+      "iteration": 37,
+      "accepted_tokens": ".4. the.."
+    },
+    {
+      "iteration": 38,
+      "accepted_tokens": "3"
+    },
+    {
+      "iteration": 39,
+      "accepted_tokens": ". tree"
+    },
+    {
+      "iteration": 40,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 41,
+      "accepted_tokens": ".4. boy.."
+    }
+  ],
+  "final_output": ", there was a little boy strugging to climb a tree.1. but the boy was determined to reach the top of.2. the tree, no matter how.3. tall it.4. the boy was.6. tired, but, he on.4. boy.7. was.5. tired to.9. the.12. boy, the.10. tree.111. the.1. the. 23. the.2. boy.4. the..3. tree. the.4. boy.."
+}

@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-04-26T01:44:09.353618",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 5,
+  "beam_depth": 8,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 715,
+    "tree_accepted_tokens": 82,
+    "tree_bonus_tokens": 5,
+    "tree_verification_calls": 19,
+    "tree_avg_branching_factor": 1.432,
+    "tokens_generated": 87
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " there are 100 stars. A"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " group of 100"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " students is these"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " stars, and a"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " group of 100 students is these"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " 100 stars. How How"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " many"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " stars"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " and students are there the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " same? To how"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " many stars be"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " 100?"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " To how many students be 100"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": "? To how"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " many stars\n"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "and student"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " be"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " 100? To how many stars"
+    }
+  ],
+  "final_output": ",, there are 100 stars. A group of 100 students is these stars, and a group of 100 students is these 100 stars. How How many stars and students are there the same? To how many stars be 100? To how many students be 100? To how many stars\nand student be 100? To how many stars"
+}

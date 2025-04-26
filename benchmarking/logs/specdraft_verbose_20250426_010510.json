@@ -1,0 +1,233 @@
+{
+  "timestamp": "2025-04-26T01:05:01.336841",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 10,
+  "metrics": {
+    "total_iterations": 14,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 116,
+    "corrections_by_target": 5,
+    "tokens_generated": 121,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 103,
+        "proposed": 140
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 13,
+        "proposed": 140
+      }
+    ],
+    "target_generate_calls": 5,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 121,
+    "actual_target_calls": 5,
+    "tokens_saved": 116,
+    "percent_tokens_saved": 95.87
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there are three types of stars: red,",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of stars: red,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there are three types of stars: red,",
+        "Qwen/Qwen2.5-1.5B": ", there are three types of stars: red,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue, and green. Each type of star emits",
+        "Qwen/Qwen2.5-1.5B": " blue, and green. The number of red stars"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue, and green. Each type of star",
+        "Qwen/Qwen2.5-1.5B": " blue, and green."
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " emits",
+          "corrected_with": " has"
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a unique number of planets orbiting it. The",
+        "Qwen/Qwen2.5-1.5B": " a different number of stars. The total number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a unique number of planets orbiting it. The",
+        "Qwen/Qwen2.5-1.5B": " a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " number of planets orbiting red stars is twice the",
+        "Qwen/Qwen2.5-1.5B": " total number of planets in the galaxy is 1"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": " total number of planets in the galaxy is 1"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "00. If the number of red planets is",
+        "Qwen/Qwen2.5-1.5B": "00. If the number of red stars is"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "00. If the number of",
+        "Qwen/Qwen2.5-1.5B": "00. If the number of"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " red",
+          "corrected_with": " planets"
+        }
+      }
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting red stars is twice the number of planets",
+        "Qwen/Qwen2.5-1.5B": " orbiting the red stars is twice the number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting red stars is twice the number of planets",
+        "Qwen/Qwen2.5-1.5B": " orbiting"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting blue stars, and the number of planets",
+        "Qwen/Qwen2.5-1.5B": " orbiting blue stars, and the number of planets"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting blue stars, and the number of planets",
+        "Qwen/Qwen2.5-1.5B": " orbiting blue stars, and the number of planets"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting green stars is 10 more than",
+        "Qwen/Qwen2.5-1.5B": " orbiting green stars is 10 more than"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting green stars is 10 more than",
+        "Qwen/Qwen2.5-1.5B": " orbiting green stars is 10 more than"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the number of planets orbiting blue stars, how",
+        "Qwen/Qwen2.5-1.5B": " the number of planets orbiting blue stars, how"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the number of planets orbiting blue stars, how",
+        "Qwen/Qwen2.5-1.5B": " the number of planets orbiting blue stars, how"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " many planets are orbiting blue stars?\nTo determine",
+        "Qwen/Qwen2.5-1.5B": " many planets orbit each type of star?\nTo determine"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " many planets",
+        "Qwen/Qwen2.5-1.5B": " many planets orbit"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " each",
+          "corrected_with": " blue"
+        }
+      }
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stars?\nTo determine the number of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " stars?\nLet's denote the number of planets orbit"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stars?\nTo determine the number of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " stars?\n"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue stars, let's define the number of planets",
+        "Qwen/Qwen2.5-1.5B": " blue stars, we start by defining variables for the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue stars, let's define the",
+        "Qwen/Qwen2.5-1.5B": " blue stars,"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " number",
+          "corrected_with": " variables"
+        }
+      }
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " for the number of planets orbiting each type of",
+        "Qwen/Qwen2.5-1.5B": " and set up the equations based on the given information"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " for",
+          "corrected_with": " as"
+        }
+      }
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " follows:\n- Let \\( B \\) be the",
+        "Qwen/Qwen2.5-1.5B": " follows:\n- Let \\( B \\) be the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " follows:\n- Let \\( B \\) be the",
+        "Qwen/Qwen2.5-1.5B": " follows:\n- Let \\( B \\) be the"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "In a galaxy far away, there are three types of stars: red, blue, and green. Each type of star has a unique number of planets orbiting it. The total number of planets in the galaxy is 100. If the number of planets orbiting red stars is twice the number of planets orbiting blue stars, and the number of planets orbiting green stars is 10 more than the number of planets orbiting blue stars, how many planets orbit blue stars?\nTo determine the number of planets orbiting blue stars, let's define the variables as follows:\n- Let \\( B \\) be the"
+}

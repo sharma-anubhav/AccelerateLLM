@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-04-26T01:18:14.408253",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 6,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 179,
+    "tree_accepted_tokens": 75,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 23,
+    "tree_avg_branching_factor": 1.037,
+    "tokens_generated": 84
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands of the people who"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " create"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " it.The"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " future of ai"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " is in the hands of the people"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " create it. The of"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " ai is in the hands of the"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " people"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " who"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " create"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " it. The future of is"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " in the hands of the who"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " create"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " it. future"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " of is"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " in the hands of the create"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " it"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ". The of"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " is"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " in the hands of the create strugg"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "l. The of"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " is in the hands of the who"
+    }
+  ],
+  "final_output": " in the hands of the people who create it.The future of ai is in the hands of the people who create it. The of ai is in the hands of the people who create it. The future of is in the hands of the who create it. future of is in the hands of the create it. The of is in the hands of the create struggl. The of is in the hands of the who"
+}

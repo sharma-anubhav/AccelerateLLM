@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-04-26T01:19:33.344867",
+  "prompt": "The future of AI is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 65,
+    "tree_accepted_tokens": 29,
+    "tree_bonus_tokens": 12,
+    "tree_verification_calls": 15,
+    "tree_avg_branching_factor": 1.708,
+    "tokens_generated": 41
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " in the hands"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " of the."
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " The of"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " the world"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": "\u2019s leading strugg"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": "lers in in"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " the field strugg"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the world strugg"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "lers. of"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the world the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": "."
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " the of the"
+    }
+  ],
+  "final_output": " in the hands of the. The of the world\u2019s leading strugglers in in the field strugglers. of the world strugglers. of the world strugglers. of the world the. the of the"
+}

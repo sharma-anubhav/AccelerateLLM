@@ -1,0 +1,427 @@
+{
+  "timestamp": "2025-04-26T01:03:58.424786",
+  "prompt": "In a galaxy far away",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "max_new_tokens": 120,
+  "draft_length": 4,
+  "metrics": {
+    "total_iterations": 31,
+    "draft_tokens_proposed": 0,
+    "draft_tokens_accepted": 120,
+    "corrections_by_target": 3,
+    "tokens_generated": 123,
+    "per_draft_metrics": [
+      {
+        "name": "Qwen/Qwen2.5-3B",
+        "accepted": 107,
+        "proposed": 124
+      },
+      {
+        "name": "Qwen/Qwen2.5-1.5B",
+        "accepted": 13,
+        "proposed": 124
+      }
+    ],
+    "target_generate_calls": 3,
+    "target_saves": 0,
+    "tokens_saved_per_call": 0.0,
+    "baseline_target_calls": 123,
+    "actual_target_calls": 3,
+    "tokens_saved": 120,
+    "percent_tokens_saved": 97.56
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", there are three",
+        "Qwen/Qwen2.5-1.5B": ", there are three"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", there are three",
+        "Qwen/Qwen2.5-1.5B": ", there are three"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 2,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " types of stars:",
+        "Qwen/Qwen2.5-1.5B": " types of stars:"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " types of stars:",
+        "Qwen/Qwen2.5-1.5B": " types of stars:"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 3,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " red, blue,",
+        "Qwen/Qwen2.5-1.5B": " red, blue,"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " red, blue,",
+        "Qwen/Qwen2.5-1.5B": " red, blue,"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 4,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " and green. Each",
+        "Qwen/Qwen2.5-1.5B": " and green. The"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " and green. Each",
+        "Qwen/Qwen2.5-1.5B": " and green."
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 5,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " type of star emits",
+        "Qwen/Qwen2.5-1.5B": " type of star has"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " type of star",
+        "Qwen/Qwen2.5-1.5B": " type of star has"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 6,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " a unique number of",
+        "Qwen/Qwen2.5-1.5B": " a different number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " a unique number of",
+        "Qwen/Qwen2.5-1.5B": " a"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 7,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " planets orbiting it",
+        "Qwen/Qwen2.5-1.5B": " stars in a cluster"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " planets orbiting it",
+        "Qwen/Qwen2.5-1.5B": ""
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 8,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ". The number of",
+        "Qwen/Qwen2.5-1.5B": ". The total number"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ". The",
+        "Qwen/Qwen2.5-1.5B": ". The total number"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 9,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of planets in the",
+        "Qwen/Qwen2.5-1.5B": " of planets in the"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of planets in the",
+        "Qwen/Qwen2.5-1.5B": " of planets in the"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 10,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " galaxy is 1",
+        "Qwen/Qwen2.5-1.5B": " galaxy is 1"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " galaxy is 1",
+        "Qwen/Qwen2.5-1.5B": " galaxy is 1"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 11,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": "00. If",
+        "Qwen/Qwen2.5-1.5B": "00. If"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": "00. If",
+        "Qwen/Qwen2.5-1.5B": "00. If"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 12,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the number of red",
+        "Qwen/Qwen2.5-1.5B": " the number of red"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the number of",
+        "Qwen/Qwen2.5-1.5B": " the number of"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-3B": {
+          "rejected": " red",
+          "corrected_with": " planets"
+        }
+      }
+    },
+    {
+      "iteration": 13,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting red stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting the red"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting red stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 14,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is twice the number",
+        "Qwen/Qwen2.5-1.5B": " is twice the number"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is twice the number",
+        "Qwen/Qwen2.5-1.5B": " is twice the number"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 15,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " of planets orbiting"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " of planets orbiting"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 16,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue stars, and",
+        "Qwen/Qwen2.5-1.5B": " blue stars, and"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue stars, and",
+        "Qwen/Qwen2.5-1.5B": " blue stars, and"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 17,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the number of planets",
+        "Qwen/Qwen2.5-1.5B": " the number of planets"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the number of planets",
+        "Qwen/Qwen2.5-1.5B": " the number of planets"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 18,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting green stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting green stars"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting green stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting green stars"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 19,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " is 10",
+        "Qwen/Qwen2.5-1.5B": " is 10"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " is 10",
+        "Qwen/Qwen2.5-1.5B": " is 10"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 20,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " more than the number",
+        "Qwen/Qwen2.5-1.5B": " more than the number"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " more than the number",
+        "Qwen/Qwen2.5-1.5B": " more than the number"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 21,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " of planets orbiting"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " of planets orbiting",
+        "Qwen/Qwen2.5-1.5B": " of planets orbiting"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 22,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " blue stars, how",
+        "Qwen/Qwen2.5-1.5B": " blue stars, how"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " blue stars, how",
+        "Qwen/Qwen2.5-1.5B": " blue stars, how"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 23,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " many planets are orbit",
+        "Qwen/Qwen2.5-1.5B": " many planets orbit each"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " many planets",
+        "Qwen/Qwen2.5-1.5B": " many planets orbit"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " each",
+          "corrected_with": " blue"
+        }
+      }
+    },
+    {
+      "iteration": 24,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " stars?\nTo determine",
+        "Qwen/Qwen2.5-1.5B": " stars?\nLet's"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " stars?\nTo determine",
+        "Qwen/Qwen2.5-1.5B": " stars?\n"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 25,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the number of planets",
+        "Qwen/Qwen2.5-1.5B": " the number of planets"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the number of planets",
+        "Qwen/Qwen2.5-1.5B": " the number of planets"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 26,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " orbiting blue stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting blue stars"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " orbiting blue stars",
+        "Qwen/Qwen2.5-1.5B": " orbiting blue stars"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 27,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": ", let's define",
+        "Qwen/Qwen2.5-1.5B": ", we start by"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": ", let's define",
+        "Qwen/Qwen2.5-1.5B": ","
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 28,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " the number of planets",
+        "Qwen/Qwen2.5-1.5B": " the variables and set"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " the",
+        "Qwen/Qwen2.5-1.5B": " the variables"
+      },
+      "correction": {
+        "Qwen/Qwen2.5-1.5B": {
+          "rejected": " and",
+          "corrected_with": " as"
+        }
+      }
+    },
+    {
+      "iteration": 29,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " follows:\n- Let",
+        "Qwen/Qwen2.5-1.5B": " follows:\n- Let"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " follows:\n- Let",
+        "Qwen/Qwen2.5-1.5B": " follows:\n- Let"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 30,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " \\( B \\)",
+        "Qwen/Qwen2.5-1.5B": " \\( B \\)"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " \\( B \\)",
+        "Qwen/Qwen2.5-1.5B": " \\( B \\)"
+      },
+      "correction": {}
+    },
+    {
+      "iteration": 31,
+      "draft_proposed": {
+        "Qwen/Qwen2.5-3B": " be the number of",
+        "Qwen/Qwen2.5-1.5B": " be the number of"
+      },
+      "accepted_text": {
+        "Qwen/Qwen2.5-3B": " be the number of",
+        "Qwen/Qwen2.5-1.5B": " be the number of"
+      },
+      "correction": {}
+    }
+  ],
+  "final_output": "In a galaxy far away, there are three types of stars: red, blue, and green. Each type of star has a unique number of planets orbiting it. The total number of planets in the galaxy is 100. If the number of planets orbiting red stars is twice the number of planets orbiting blue stars, and the number of planets orbiting green stars is 10 more than the number of planets orbiting blue stars, how many planets orbit blue stars?\nTo determine the number of planets orbiting blue stars, let's define the variables as follows:\n- Let \\( B \\) be the number of"
+}

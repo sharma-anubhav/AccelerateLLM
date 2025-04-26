@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-04-26T01:32:13.358199",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 8,
+  "max_new_tokens": 120,
+  "metrics": {
+    "tree_nodes_total": 606,
+    "tree_accepted_tokens": 121,
+    "tree_bonus_tokens": 4,
+    "tree_verification_calls": 24,
+    "tree_avg_branching_factor": 1.295,
+    "tokens_generated": 125
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " people of the United"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " States. The president is the head of the"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " executive branch of the United is"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the head of the executive branch of the United"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": " States"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " government"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " head of the executive branch of the United strugg"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": "les of"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " the president"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": " of the United States. the president"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " of the United States is the head of the"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " executive branch of the United government"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ". the president the"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " head of the executive branch of the government"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": ". the president the"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": " head of the executive branch of the government government"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ". the president the head head"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " of the executive branch of the government. the"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " president of the of"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the United States"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " is"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " the head of the executive United"
+    }
+  ],
+  "final_output": " elected by the the people of the United States. The president is the head of the executive branch of the United is the head of the executive branch of the United States government. the head of the executive branch of the United struggles of the president of the United States. the president of the United States is the head of the executive branch of the United government. the president the head of the executive branch of the government. the president the head of the executive branch of the government government. the president the head head of the executive branch of the government. the president of the of the United States is the head of the executive United"
+}

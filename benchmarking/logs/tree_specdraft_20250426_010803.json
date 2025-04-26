@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-04-26T01:07:55.946809",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 2,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 147,
+    "tree_accepted_tokens": 61,
+    "tree_bonus_tokens": 20,
+    "tree_verification_calls": 31,
+    "tree_avg_branching_factor": 1.579,
+    "tokens_generated": 81
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " there was,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " in"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a certain strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ly part of"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " the world country"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ", a old"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " man"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ". He was"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " a very very"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " very old old"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " man. strugg"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "ly part of"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " the country"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ", a man"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": ", a very"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " very old"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": " man"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": ", was"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": ". a"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": " very old strugg"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": "ly man of"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": " the of"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": " the country strugg"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": "ly part strugg"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": "ly part strugg"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": "ly part strugg"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": "ly part the"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " country following"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " the country strugg"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": "ly part strugg"
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": "ly part of"
+    }
+  ],
+  "final_output": " there was, in a certain struggly part of the world country, a old man. He was a very very very old old man. struggly part of the country, a man, a very very old man, was. a very old struggly man of the of the country struggly part struggly part struggly part struggly part the country following the country struggly part struggly part of"
+}

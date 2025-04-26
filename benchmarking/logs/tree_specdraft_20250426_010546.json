@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:05:42.337943",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 1,
+  "beam_depth": 4,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 90,
+    "tree_accepted_tokens": 34,
+    "tree_bonus_tokens": 9,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.294,
+    "tokens_generated": 43
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": ",1"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": "00 prisoners were locked"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " in a room."
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " The next"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " day"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ", the warden were"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " going to play"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " a game with them."
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": " The game"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " was as follows: the"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " w"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "arden"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " would take"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " a number from  ,"
+    }
+  ],
+  "final_output": ",100 prisoners were locked in a room. The next day, the warden were going to play a game with them. The game was as follows: the warden would take a number from  ,"
+}

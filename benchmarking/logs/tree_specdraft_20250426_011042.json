@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-04-26T01:10:39.670201",
+  "prompt": "Once upon a time",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 3,
+  "beam_depth": 2,
+  "max_new_tokens": 40,
+  "metrics": {
+    "tree_nodes_total": 88,
+    "tree_accepted_tokens": 39,
+    "tree_bonus_tokens": 1,
+    "tree_verification_calls": 14,
+    "tree_avg_branching_factor": 1.588,
+    "tokens_generated": 40
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " there was,"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " in"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " a certain strugg"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": "ly,ly"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": ",lyly"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": ",lyly"
+    }
+  ],
+  "final_output": " there was, in a certain struggly,ly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly,lyly"
+}

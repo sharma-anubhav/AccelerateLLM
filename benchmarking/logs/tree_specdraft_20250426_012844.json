@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-04-26T01:28:36.248848",
+  "prompt": "The president of the USA is",
+  "target_model": "Qwen/Qwen2.5-7B",
+  "draft_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-1.5B"
+  ],
+  "beam_width": 2,
+  "beam_depth": 2,
+  "max_new_tokens": 80,
+  "metrics": {
+    "tree_nodes_total": 151,
+    "tree_accepted_tokens": 57,
+    "tree_bonus_tokens": 23,
+    "tree_verification_calls": 31,
+    "tree_avg_branching_factor": 1.559,
+    "tokens_generated": 80
+  },
+  "iteration_logs": [
+    {
+      "iteration": 1,
+      "accepted_tokens": " elected by the"
+    },
+    {
+      "iteration": 2,
+      "accepted_tokens": " people. The"
+    },
+    {
+      "iteration": 3,
+      "accepted_tokens": " president of the"
+    },
+    {
+      "iteration": 4,
+      "accepted_tokens": " United Kingdom is"
+    },
+    {
+      "iteration": 5,
+      "accepted_tokens": " elected officials"
+    },
+    {
+      "iteration": 6,
+      "accepted_tokens": ". The the"
+    },
+    {
+      "iteration": 7,
+      "accepted_tokens": " United Kingdom is"
+    },
+    {
+      "iteration": 8,
+      "accepted_tokens": " a country democracy"
+    },
+    {
+      "iteration": 9,
+      "accepted_tokens": ". the"
+    },
+    {
+      "iteration": 10,
+      "accepted_tokens": " United States is"
+    },
+    {
+      "iteration": 11,
+      "accepted_tokens": " a country."
+    },
+    {
+      "iteration": 12,
+      "accepted_tokens": "  What"
+    },
+    {
+      "iteration": 13,
+      "accepted_tokens": " is the person"
+    },
+    {
+      "iteration": 14,
+      "accepted_tokens": " in charge"
+    },
+    {
+      "iteration": 15,
+      "accepted_tokens": " of a country"
+    },
+    {
+      "iteration": 16,
+      "accepted_tokens": " called strugg"
+    },
+    {
+      "iteration": 17,
+      "accepted_tokens": "ler"
+    },
+    {
+      "iteration": 18,
+      "accepted_tokens": "?  The"
+    },
+    {
+      "iteration": 19,
+      "accepted_tokens": " answer strugg"
+    },
+    {
+      "iteration": 20,
+      "accepted_tokens": "ler is can"
+    },
+    {
+      "iteration": 21,
+      "accepted_tokens": " be found strugg"
+    },
+    {
+      "iteration": 22,
+      "accepted_tokens": "ler.\n"
+    },
+    {
+      "iteration": 23,
+      "accepted_tokens": "TheThe"
+    },
+    {
+      "iteration": 24,
+      "accepted_tokens": " answer to the"
+    },
+    {
+      "iteration": 25,
+      "accepted_tokens": " questionWhat"
+    },
+    {
+      "iteration": 26,
+      "accepted_tokens": " isis"
+    },
+    {
+      "iteration": 27,
+      "accepted_tokens": " the person in"
+    },
+    {
+      "iteration": 28,
+      "accepted_tokens": " charge of a"
+    },
+    {
+      "iteration": 29,
+      "accepted_tokens": " country called strugg"
+    },
+    {
+      "iteration": 30,
+      "accepted_tokens": "ler? "
+    },
+    {
+      "iteration": 31,
+      "accepted_tokens": " isThe"
+    }
+  ],
+  "final_output": " elected by the people. The president of the United Kingdom is elected officials. The the United Kingdom is a country democracy. the United States is a country.  What is the person in charge of a country called struggler?  The answer struggler is can be found struggler.\nTheThe answer to the questionWhat isis the person in charge of a country called struggler?  isThe"
+}
