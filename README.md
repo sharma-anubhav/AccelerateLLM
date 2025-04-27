@@ -109,7 +109,10 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 
 ## 5. METHODOLOGY
 
-### 5.1. Comparison 
+### 5.1 System Architecture
+![System Architecture Diagram](images/system.png)
+
+### 5.2. Comparison 
 
 | Aspect                | Tree-Based                                                             | Sequential                                                    |
 |------------------------|------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -121,57 +124,28 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 | Next draft selection   | Highest matching path across all branches                              | Draft with longest accepted prefix                           |
 
 
-### 5.2. Tree-Based Speculative Decoding for Efficient LLM Inference
+### 5.3. Tree-Based Speculative Decoding for Efficient LLM Inference
 
 This project implements a **Tree-Based Speculative Decoding** pipeline that speeds up text generation from large language models (LLMs) by leveraging multiple lightweight speculative models (SSMs) and verifying their predictions in a single pass using a powerful target model.
 
-#### High-Level Overview of the Pipeline
-
-```
-         ┌────────────┐
-         │   Prompt   │
-         └────┬───────┘
-              ↓
-     ┌──────────────────────┐
-     │ SSM Beam Generation  │  ← multiple small models
-     └────────┬─────────────┘
-              ↓
-     ┌──────────────────────┐
-     │ Merge into Token Tree│ ← deduplicates beams into Trie
-     └────────┬─────────────┘
-              ↓
-     ┌────────────────────────┐
-     │ Target Model (1 pass)  │ ← verifies multiple tokens at once
-     └────────┬───────────────┘
-              ↓
-     ┌──────────────────────┐
-     │ Accept & Extend Seq  │ ← follows path as long as target agrees
-     └──────┬───────────────┘
-            ↓
-Fallback if no match:
-   ┌─────────────────────────────┐
-   │ Greedy step from target LLM │
-   └─────────────────────────────┘
-```
-
 #### Step-by-Step Breakdown
 
-#### 5.2.1. **Prompt Encoding**
+#### 5.3.1. **Prompt Encoding**
 
 - The user prompt is tokenized with the target model's tokenizer.
 - Stored as `current_ids`, which gets extended as generation proceeds.
 
-#### 5.2.2. **Speculative Beam Generation**
+#### 5.3.2. **Speculative Beam Generation**
 
 - Each SSM (e.g., `Qwen2.5-3B`, `Qwen2.5-1.5B`) performs beam search on the current prefix.
 - Beams are collected with configurable `beam_width` and `beam_depth`.
 
-#### 5.2.3. **Beam Merging into a Token Tree**
+#### 5.3.3. **Beam Merging into a Token Tree**
 
 - Beams from all SSMs are deduplicated and merged into a **Trie (token tree)**.
 - This tree allows branching speculative paths and efficient batch verification.
 
-#### 5.2.4. **Custom Attention Mask Construction**
+#### 5.3.4. **Custom Attention Mask Construction**
 
 - A mask is built that allows each speculative token to attend to:
   - All original prompt tokens
@@ -180,18 +154,18 @@ Fallback if no match:
 - Used to verify all tree paths in a **single forward pass** through the target model using the custom attention mask.
 - This outputs logits for each token in the tree, allowing parallel next-token prediction for every node.
 
-#### 5.2.5. **Tree-Based Verification**
+#### 5.3.5. **Tree-Based Verification**
 
 - The target model’s predictions are compared against each node in the tree:
   - Tokens are **accepted** as long as target predictions match the tree structure.
   - When a mismatch is encountered, the predicted token is **appended as a bonus** and verification stops.
 
-#### 5.2.6. **Fallback Mode**
+#### 5.3.6. **Fallback Mode**
 
 - If the tree is empty or the first token fails verification, the system performs **greedy decoding** using the target model.
 - Ensures generation continuity even when speculative guesses fail.
 
-#### 5.2.7. **Iteration**
+#### 5.3.7. **Iteration**
 
 - Steps 2–6 are repeated until:
   - A configured number of tokens is generated, or
@@ -211,59 +185,33 @@ Includes:
 - Per-iteration accepted sequences
 
 
-### 5.3. Sequential Speculative Decoding (Multi-Draft, Verifier-Based)
+### 5.4. Sequential Speculative Decoding (Multi-Draft, Verifier-Based)
 
 This project implements a **Sequential Speculative Decoding** approach for efficient LLM inference. Instead of tree-based decoding, this version performs **step-by-step verification** of speculative drafts from multiple small models using a verifier function that simulates the behavior of a target LLM.
 
-
-#### High-Level Overview of the Pipeline
-
-```
-         ┌────────────┐
-         │   Prompt   │
-         └────┬───────┘
-              ↓
-     ┌────────────────────────┐
-     │ Generate Drafts (SSMs) │ ← Multiple draft models in parallel
-     └────────┬───────────────┘
-              ↓
-     ┌────────────────────────────┐
-     │ Verify with Target Logits │ ← Check predictions token-by-token
-     └────────┬──────────────────┘
-              ↓
-     ┌────────────────────────┐
-     │ Accept Matching Tokens │ ← As long as draft matches target
-     └────────┬───────────────┘
-              ↓
-If mismatch:
-   ┌────────────────────────────┐
-   │ Add correction by target   │ ← Single token greedy generation
-   └────────────────────────────┘
-```
-
 #### Step-by-Step Breakdown
 
-#### 5.3.1. **Prompt Initialization**
+#### 5.4.1. **Prompt Initialization**
 - Tokenize the prompt using the target model’s tokenizer.
 - Initialize a copy as the working sequence (`current_ids`).
 
-#### 5.3.2. **Speculative Drafting (Multi-threaded)**
+#### 5.4.2. **Speculative Drafting (Multi-threaded)**
 - All draft models run beamless (`do_sample=False`) greedy generation in parallel.
 - Each draft model generates a fixed-length speculative continuation.
 
-#### 5.3.3. **Token-by-Token Verification**
+#### 5.4.3. **Token-by-Token Verification**
 - For each draft, use the target model logits to verify tokens:
   - Compare each draft token to the target model’s prediction.
   - Stop at first mismatch and optionally generate the correct token.
 
-#### 5.3.4. **Best Draft Selection**
+#### 5.4.4. **Best Draft Selection**
 - From all drafts, pick the one with the **most tokens verified successfully**.
 - Log all proposals, acceptances, and corrections for detailed analysis.
 
-#### 5.3.5. **Correction Step**
+#### 5.4.5. **Correction Step**
 - If no draft is fully accepted, call the target model once to generate the next correct token.
 
-#### 5.3.6. **Iteration Until Completion**
+#### 5.4.6. **Iteration Until Completion**
 - Continue the draft + verify loop until either:
   - The EOS token is generated
   - The max number of new tokens is reached
