@@ -142,9 +142,28 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 
 ### 5.1 System Architecture
 
-<p align="center"><img src="images/system.png" alt="System Architecture Diagram" width="650"/></p>
+<p align="center"><img src="images/system_design.png" alt="System Architecture Diagram" width="650"/></p>
 
-### 5.2 Strategy Comparison
+### 5.2 Tree‑Based Speculative Decoding
+
+1. **Prompt Encoding** – tokenize prompt → `current_ids`
+2. **Speculative Beam Generation** – each SSM runs beam search (`beam_width × beam_depth`).
+3. **Beam Merging** – deduplicate & merge beams into a Trie.
+4. **Custom Attention Mask** – each node attends to prompt + ancestors; verify all nodes in **one** target pass.
+5. **Verification** – accept matching paths; on mismatch append bonus token.
+6. **Fallback** – greedy target step if first token fails or tree empty.
+7. **Iterate** until EOS or `max_tokens`.
+
+### 5.3 Sequential Speculative Decoding
+
+1. **Prompt Init** – tokenize prompt.
+2. **Parallel Drafts** – each SSM generates a fixed‑length greedy continuation.
+3. **Token‑Level Verification** – compare each draft token to target logits.
+4. **Select Best Draft** – longest verified prefix wins.
+5. **Correction** – if none fully match, append target token.
+6. **Iterate** until EOS or `max_tokens`.
+
+### 5.4 Strategy Comparison
 
 | Aspect           | Tree‑Based                      | Sequential                          |
 | ---------------- | ------------------------------- | ----------------------------------- |
@@ -155,24 +174,6 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 | Search space     | Parallel branches               | Single branch/step                  |
 | Next draft       | Highest‑matching path           | Draft with longest prefix           |
 
-### 5.3 Tree‑Based Speculative Decoding
-
-1. **Prompt Encoding** – tokenize prompt → `current_ids`
-2. **Speculative Beam Generation** – each SSM runs beam search (`beam_width × beam_depth`).
-3. **Beam Merging** – deduplicate & merge beams into a Trie.
-4. **Custom Attention Mask** – each node attends to prompt + ancestors; verify all nodes in **one** target pass.
-5. **Verification** – accept matching paths; on mismatch append bonus token.
-6. **Fallback** – greedy target step if first token fails or tree empty.
-7. **Iterate** until EOS or `max_tokens`.
-
-### 5.4 Sequential Speculative Decoding
-
-1. **Prompt Init** – tokenize prompt.
-2. **Parallel Drafts** – each SSM generates a fixed‑length greedy continuation.
-3. **Token‑Level Verification** – compare each draft token to target logits.
-4. **Select Best Draft** – longest verified prefix wins.
-5. **Correction** – if none fully match, append target token.
-6. **Iterate** until EOS or `max_tokens`.
 
 ### 5.5 Metrics & Logging
 
