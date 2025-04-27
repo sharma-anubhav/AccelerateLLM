@@ -1,59 +1,87 @@
-# Speculative Decoding
+# ⏱️ Speculative Decoding
+This repository offers a complete, reference implementation of **speculative decoding** algorithms for **large language models**. It implements two interchangeable strategies—(1) a **tree-based** approach that merges multi-beam drafts from lightweight speculative models into a single trie and verifies every branch in one forward pass, and (2) a **sequential** draft-verification loop that accepts tokens step-by-step. Alongside the core **Python** code, the repo includes **benchmarking scripts**, extensive **JSON logging**, and a **Streamlit dashboard** so you can explore approach **trade-offs** and understand exactly how speculative decoding works while **LLM inference**.
 
-This repo provides an end-to-end implementation of speculative decoding using both a **tree-based attention strategy** and a **sequential draft-verification strategy**. The goal is to accelerate large language model (LLM) inference by generating speculative candidates using draft models and verifying them efficiently with the target model.
+> **Purpose & Limitations**  
+> This repository provides speculative‑decoding algorithms with a <ins>pure‑Python reference implementation</ins> and visualization tools. It is intended for learning and experimentation—**not** for production‑grade speed‑ups you would get from a low‑level (C++/CUDA) backend.
+
+
+## ✍️ Introduction
+
+Large Language Models (LLMs) are remarkably capable, yet their autoregressive nature makes inference costly. **Speculative decoding** cuts latency by letting lightweight **speculative models (SSMs)** propose future tokens that a heavyweight **target model** verifies.  
+This repo offers two interchangeable strategies:
+
+- **Tree‑based attention** – multi‑beam drafts are merged into a Trie and verified in _one_ forward pass.
+- **Sequential draft‑verification** – classic token‑by‑token acceptance loop for baselines and ablations.
+
+Everything is implemented with PyTorch + Transformers—no custom kernels required.
 
 ---
 
-## 1. Directory Structure
+## 🗺️ Table of Contents
 
-```
+1. [Directory Structure](#1-directory-structure)
+2. [How to Run](#2-how-to-run)
+3. [Benchmarking](#3-benchmarking)
+4. [Highlights](#4-highlights)
+5. [Methodology](#5-methodology)
+6. [Example Prompt](#6-example-prompt)
+7. [Future Optimizations](#7-future-optimizations)
+
+---
+
+## 1. 🗂️ Directory Structure
+
+```text
 project_root/
 ├── config.py                # Configurable prompts, models, decoding mode, beam params
-├── main.py                  # CLI entry point for single prompt runs
-├── run_benchmark.py         # Batch benchmark runner (multiple prompts, speculative lengths)
-├── controller.py            # Sequential speculative decoding controller
-├── controller_tree.py       # Tree-based speculative decoding controller
-├── sequential_utils.py      # Drafter and verifier utilities for sequential mode
-├── tree_utils.py            # Trie structure, tree mask, verifier logic for tree mode
-├── model_loader.py          # Model loading on available CUDA devices
+├── main.py                  # CLI entry for single‑prompt runs
+├── run_benchmark.py         # Batch benchmark runner
+├── controller.py            # Sequential speculative controller
+├── controller_tree.py       # Tree‑based speculative controller
+├── sequential_utils.py      # Drafter & verifier helpers
+├── tree_utils.py            # Trie + tree‑mask utilities
+├── model_loader.py          # CUDA‑aware model loader
 ├── benchmarking/
-│   ├── analyze.py           # Analyze logs and summarize results
-│   ├── visualize.py         # Streamlit interactive dashboard for results
-│   ├── benchmark_summary.csv# Aggregated results
-│   └── config.py            # Benchmarking configuration
-├── logs/                    # JSON logs with detailed metrics per run
-└── README.md                # You're here
+│   ├── analyze.py           # Aggregate log metrics
+│   ├── visualize.py         # Streamlit dashboard
+│   ├── benchmark_summary.csv
+│   └── config.py            # Benchmark parameters
+├── logs/                    # JSON logs per run
+└── README.md                # You are here
 ```
 
 ---
 
-## 2. How to Run
+## 2. How to Run
 
-### Single Prompt via CLI
+### Single Prompt via CLI
 
 ```bash
 python main.py \
   --prompt "The future of AI is" \
-  --mode tree \
+  --mode tree            # or sequential
   --draft_length 9 \
   --max_tokens 40 \
   --verbose
 ```
 
-Supported `--mode`:
-- `sequential`: Draft + verify in rounds
-- `tree`: Multi-beam speculative decoding + single target pass with tree attention
+`--mode` options:
+
+- `sequential` – draft + verify in rounds
+- `tree` – multi‑beam drafts, one target pass with tree mask
 
 ---
 
-## 3. Benchmarking 
-Run full benchmark sweep across prompts, speculative settings, and models in the config file.
+## 3. Benchmarking
+
+Run a full sweep across prompts and configs:
 
 ```bash
 python benchmarking/run_benchmark.py
 ```
 
-Uses configuration from `benchmarking/config.py`:
+Key grid in `benchmarking/config.py`:
+
 ```python
 CONFIG = {
     "target_model": "Qwen/Qwen2.5-3B",
@@ -66,18 +94,19 @@ CONFIG = {
         "Once upon a time",
         "The future of AI is",
         "The president of the USA is",
-        "In a galaxy far away"
-    ]
+        "In a galaxy far away",
+    ],
 }
 ```
 
-### Interactive Analysis
+### 📊 Interactive Dashboard
 
 ```bash
 streamlit run benchmarking/visualize.py
 ```
 
 Features:
+
 - Iteration by Iteration visualization of generated, accepted, and correction tokens
 - Interactive table filtering (Prompt, Strategy, Configs)
 - Scatter and stacked bar plots for performance analysis
@@ -86,9 +115,12 @@ Features:
 - Comparison across different target-draft model setups
 
 ### Visualizations
+
 <span style="color:red">Red tokens</span> are correction tokens added by the target, while <span style="color:green">green tokens</span> are the accepted tokens generated by the draft model.
 
 ![Generation Visualization](images/generation.png)
+
+<br>
 
 Scatter and stacked bar plots for performance analysis, and aggregated statistics across different strategies.
 
@@ -96,163 +128,95 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 
 ---
 
-## 4. Highlights
+## 4. ✨ Highlights
 
-- Modular design: easily swap between tree-based and sequential controllers.
-- Tree-based speculative decoding with efficient token tree merging and custom attention masks.
-- Sequential speculative decoding with token-by-token draft verification.
-- Multi-draft generation using threading for speed.
-- Fully benchmarked and logged experiments saved under `logs/`.
-- Interactive dashboard for analysis and plots.
-  
+- **Swap controllers** instantly with a flag.
+- **Trie‑merged token tree** + custom attention ⇒ single verification pass.
+- **Parallel multi‑draft generation** for extra speed.
+- **Rich JSON logs** capturing token‑level decisions.
+- **Streamlit dashboard** for exploratory analysis.
+
 ---
 
-## 5. METHODOLOGY
+## 5. Methodology
 
 ### 5.1 System Architecture
-![System Architecture Diagram](images/system.png)
 
-### 5.2. Comparison 
+<p align="center"><img src="images/system.png" alt="System Architecture Diagram" width="650"/></p>
 
-| Aspect                | Tree-Based                                                             | Sequential                                                    |
-|------------------------|------------------------------------------------------------------------|---------------------------------------------------------------|
-| Draft generation       | Multiple beams per SSM → merged into a token tree                      | Parallel threaded Single greedy sequence per draft model                      |
-| Verification style     | One batched target pass over the full tree with attention mask          | Token-by-token sequential verification using logits          |
-| Acceptance             | Accepts full paths where target predictions match the tree             | Accepts linear prefix until target and draft disagree        |
-| Fallback               | At first mismatch, bonus token from target is added                    | At mismatch, greedy target token is appended                 |
-| Search space           | Explores multiple speculative branches at once                         | Only one branch per draft per step                           |
-| Next draft selection   | Highest matching path across all branches                              | Draft with longest accepted prefix                           |
+### 5.2 Strategy Comparison
 
+| Aspect           | Tree‑Based                      | Sequential                          |
+| ---------------- | ------------------------------- | ----------------------------------- |
+| Draft generation | Multi‑beam per SSM → token tree | Greedy sequence per draft (threads) |
+| Verification     | **One** batched target pass     | Token‑by‑token passes               |
+| Acceptance       | Accept contiguous branch        | Accept prefix until mismatch        |
+| Fallback         | Target bonus token              | Greedy target token                 |
+| Search space     | Parallel branches               | Single branch/step                  |
+| Next draft       | Highest‑matching path           | Draft with longest prefix           |
 
-### 5.3. Tree-Based Speculative Decoding for Efficient LLM Inference
+### 5.3 Tree‑Based Speculative Decoding
 
-This project implements a **Tree-Based Speculative Decoding** pipeline that speeds up text generation from large language models (LLMs) by leveraging multiple lightweight speculative models (SSMs) and verifying their predictions in a single pass using a powerful target model.
+1. **Prompt Encoding** – tokenize prompt → `current_ids`
+2. **Speculative Beam Generation** – each SSM runs beam search (`beam_width × beam_depth`).
+3. **Beam Merging** – deduplicate & merge beams into a Trie.
+4. **Custom Attention Mask** – each node attends to prompt + ancestors; verify all nodes in **one** target pass.
+5. **Verification** – accept matching paths; on mismatch append bonus token.
+6. **Fallback** – greedy target step if first token fails or tree empty.
+7. **Iterate** until EOS or `max_tokens`.
 
-#### Step-by-Step Breakdown
+### 5.4 Sequential Speculative Decoding
 
-#### 5.3.1. **Prompt Encoding**
+1. **Prompt Init** – tokenize prompt.
+2. **Parallel Drafts** – each SSM generates a fixed‑length greedy continuation.
+3. **Token‑Level Verification** – compare each draft token to target logits.
+4. **Select Best Draft** – longest verified prefix wins.
+5. **Correction** – if none fully match, append target token.
+6. **Iterate** until EOS or `max_tokens`.
 
-- The user prompt is tokenized with the target model's tokenizer.
-- Stored as `current_ids`, which gets extended as generation proceeds.
+### 5.5 Metrics & Logging
 
-#### 5.3.2. **Speculative Beam Generation**
+Every run (tree or sequential) logs a single JSON with all or subset of the following:
 
-- Each SSM (e.g., `Qwen2.5-3B`, `Qwen2.5-1.5B`) performs beam search on the current prefix.
-- Beams are collected with configurable `beam_width` and `beam_depth`.
+| Metric Key | Description |
+|------------|-------------|
+| `tokens_generated` | Final length of the generated continuation |
+| `draft_tokens_proposed` | Speculative tokens produced by all SSMs |
+| `draft_tokens_accepted` | Tokens verified & accepted without modification |
+| `corrections_by_target` | Tokens *added* by the target model when drafts mismatch |
+| `percent_tokens_saved` | `(draft_tokens_accepted / tokens_generated) × 100` – rough efficiency measure |
+| `verification_calls` | How many forward passes on the target model were made |
+| `max_new_tokens` | Upper cap on tokens the run was allowed to generate |
+| `draft_length` | Per‑draft speculative length (sequential) *or* `beam_depth` (tree) |
+| `beam_width` | Number of beams per SSM (tree mode only) |
+| `beam_depth` | Depth of each beam sequence (tree mode only) |
+| `tree_nodes_total` | Total nodes in the merged token trie (tree mode) |
+| `tree_accepted_tokens` | Tokens validated via tree verification (tree mode) |
 
-#### 5.3.3. **Beam Merging into a Token Tree**
-
-- Beams from all SSMs are deduplicated and merged into a **Trie (token tree)**.
-- This tree allows branching speculative paths and efficient batch verification.
-
-#### 5.3.4. **Custom Attention Mask Construction**
-
-- A mask is built that allows each speculative token to attend to:
-  - All original prompt tokens
-  - Its ancestors in the tree
-- This allows the target model to understand the context of each speculative token accurately without inter-branch leakage.
-- Used to verify all tree paths in a **single forward pass** through the target model using the custom attention mask.
-- This outputs logits for each token in the tree, allowing parallel next-token prediction for every node.
-
-#### 5.3.5. **Tree-Based Verification**
-
-- The target model’s predictions are compared against each node in the tree:
-  - Tokens are **accepted** as long as target predictions match the tree structure.
-  - When a mismatch is encountered, the predicted token is **appended as a bonus** and verification stops.
-
-#### 5.3.6. **Fallback Mode**
-
-- If the tree is empty or the first token fails verification, the system performs **greedy decoding** using the target model.
-- Ensures generation continuity even when speculative guesses fail.
-
-#### 5.3.7. **Iteration**
-
-- Steps 2–6 are repeated until:
-  - A configured number of tokens is generated, or
-  - An end-of-sequence (EOS) token is generated
-
-### 📊 Metrics and Logging (per run)
-
-Saved under `logs/` as JSON files.
-
-Includes:
-- `tokens_generated`
-- `tree_accepted_tokens`
-- `tree_bonus_tokens`
-- `tree_nodes_total`
-- `tree_avg_branching_factor`
-- `tree_verification_calls`
-- Per-iteration accepted sequences
-
-
-### 5.4. Sequential Speculative Decoding (Multi-Draft, Verifier-Based)
-
-This project implements a **Sequential Speculative Decoding** approach for efficient LLM inference. Instead of tree-based decoding, this version performs **step-by-step verification** of speculative drafts from multiple small models using a verifier function that simulates the behavior of a target LLM.
-
-#### Step-by-Step Breakdown
-
-#### 5.4.1. **Prompt Initialization**
-- Tokenize the prompt using the target model’s tokenizer.
-- Initialize a copy as the working sequence (`current_ids`).
-
-#### 5.4.2. **Speculative Drafting (Multi-threaded)**
-- All draft models run beamless (`do_sample=False`) greedy generation in parallel.
-- Each draft model generates a fixed-length speculative continuation.
-
-#### 5.4.3. **Token-by-Token Verification**
-- For each draft, use the target model logits to verify tokens:
-  - Compare each draft token to the target model’s prediction.
-  - Stop at first mismatch and optionally generate the correct token.
-
-#### 5.4.4. **Best Draft Selection**
-- From all drafts, pick the one with the **most tokens verified successfully**.
-- Log all proposals, acceptances, and corrections for detailed analysis.
-
-#### 5.4.5. **Correction Step**
-- If no draft is fully accepted, call the target model once to generate the next correct token.
-
-#### 5.4.6. **Iteration Until Completion**
-- Continue the draft + verify loop until either:
-  - The EOS token is generated
-  - The max number of new tokens is reached
-
-### 📊 Metrics and Logging (per run)
-
-Each run logs:
-- Total tokens generated
-- Number of draft tokens proposed / accepted
-- Corrections inserted by the target
-- Per-draft acceptance rates
-- Effective savings compared to greedy decoding
-
-Output is stored as a structured JSON log:
-```bash
-logs/specdraft_verbose_YYYYMMDD_HHMMSS.json
-```
+Logs are saved to the `logs/` directory and power the Streamlit dashboard.
 
 ---
 
-## 6. Example Prompt
+## 6. Example Prompt
 
 ```python
 prompt = "The future of AI is"
 ```
 
-Sample generated continuation:
+Sample continuation:
+
 ```
-...The future of AI is in the hands of the people who build it. The people who build it are the people who will use it. The people who will use it are the people who will be affected by it. The people who will be affected
+…The future of AI is in the hands of the people who build it. The people who build it are the people who will use it. The people who will use it are the people who will be affected by it…
 ```
 
 ---
 
-## 7. Future Optimizations?
+## 7. 💡 Future Optimizations
 
-- Add KV-Cache Reuse instead of appending to the current accepted text.
-- Add dynamic adjustments to the tree lengths.
-- Combine with quantized or distilled draft models
-- Adapt to `vLLM`, `FlexServe`, or `TGI` for production inference
+- Reuse **KV‑cache** instead of re‑encoding prompt.
+- Dynamic tree depth based on live acceptance rate.
+- Quantized / distilled drafts integration.
 
 ---
 
-
-
+> **License** Apache‑2.0 · **Author** Anubhav Sharma · <sub>Updated Apr 2025</sub>
