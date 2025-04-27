@@ -29,7 +29,7 @@ for f in log_files:
 
 if page == "Benchmark Summary":
 
-    st.title("🚀 Speculative Decoding Benchmark Dashboard v4")
+    st.title("Speculative Decoding Visualization and Benchmaking Dashboard")
 
     st.sidebar.header("Filter Options")
 
@@ -144,7 +144,7 @@ else:
                 if corr:
                     cumulative_text.append(f"<span style='color:red'>{corr['corrected_with']}</span>")
 
-        st.subheader("📖 Full Generated Story")
+        st.subheader("📖 Full Generated Text")
         if cumulative_text:
             full_text_html = "".join(cumulative_text)
             st.markdown(f"<div style='background-color:#f0f2f6;padding:12px;border-radius:8px'>{full_text_html}</div>", unsafe_allow_html=True)
