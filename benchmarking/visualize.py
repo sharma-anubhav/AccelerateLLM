@@ -73,7 +73,7 @@ selected = option_menu(
 
 tab_home     = selected == "Home"
 tab_bench    = selected == "Benchmark"
-tab_iter = selected == "Viewer"
+tab_iter = selected == "Profiling"
 
 if tab_home:
     README_PATH = Path(__file__).parent.parent / "README.md"  
