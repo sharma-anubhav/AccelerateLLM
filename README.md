@@ -1,6 +1,8 @@
 # ⏱️ Speculative Decoding
 This repository offers a complete, reference implementation of **speculative decoding** algorithms for **large language models**. It implements two interchangeable strategies—(1) a **tree-based** approach that merges multi-beam drafts from lightweight speculative models into a single trie and verifies every branch in one forward pass, and (2) a **sequential** draft-verification loop that accepts tokens step-by-step. Alongside the core **Python** code, the repo includes **benchmarking scripts**, extensive **JSON logging**, and a **Streamlit dashboard** so you can explore approach **trade-offs** and understand exactly how speculative decoding works while **LLM inference**.
 
+https://speculativedecoding.streamlit.app/
+
 > **Purpose & Limitations**  
 > This repository provides speculative‑decoding algorithms with a <ins>pure‑Python reference implementation</ins> and visualization tools. It is intended for learning and experimentation—**not** for production‑grade speed‑ups you would get from a low‑level (C++/CUDA) backend.
 
