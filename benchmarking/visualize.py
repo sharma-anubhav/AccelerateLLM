@@ -6,7 +6,22 @@ import json, os
 from pathlib import Path
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="Spec-Dec Dashboard", layout="wide")
+st.set_page_config(page_title="AccelerateLLM: Faster Inference & Profiling", layout="wide")
+
+primary = st.get_option("theme.primaryColor")
+
+text_color = st.get_option("theme.textColor")
+
+st.markdown(
+    f"""
+    <div style="text-align:center; padding: 1rem 0;">
+      <h1 style="margin:0; color:{text_color}; font-size:2.5rem;">
+        AccelerateLLM: Faster Inference & Profiling
+      </h1>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.markdown(
     """
@@ -46,7 +61,7 @@ st.markdown(
 
 selected = option_menu(
     menu_title=None,
-    options=["Home", "Viewer", "Benchmark"],
+    options=["Home", "Profiling", "Benchmark"],
     icons=["house-fill", "bar-chart-line-fill", "clock-history"],
     default_index=0,
     orientation="horizontal",
