@@ -142,7 +142,7 @@ Scatter and stacked bar plots for performance analysis, and aggregated statistic
 
 ### 5.1 System Architecture
 
-<p align="center"><img src="https://github.com/sharma-anubhav/SpeculativeDecoding/blob/main/images/system_design.png" alt="System Architecture Diagram" width="650"/></p>
+<p align="center"><img src="https://github.com/sharma-anubhav/SpeculativeDecoding/blob/main/images/system_design.png?raw=true" alt="System Architecture Diagram" width="650"/></p>
 
 ### 5.2 Tree‑Based Speculative Decoding
 
