@@ -73,7 +73,7 @@ selected = option_menu(
 
 tab_home     = selected == "Home"
 tab_bench    = selected == "Benchmark"
-tab_iter = selected == "Viewer"
+tab_iter = selected == "Profiling"
 
 if tab_home:
     README_PATH = Path(__file__).parent.parent / "README.md"  
@@ -82,11 +82,8 @@ if tab_home:
     else:
         st.markdown(README_PATH.read_text(encoding="utf-8"), unsafe_allow_html=True)
 
-# ╭───────────────────────────────────────────╮
-# │  📊  BENCHMARK SUMMARY                    │
-# ╰───────────────────────────────────────────╯
+
 elif tab_bench:
-    # ── Load CSV ────────────────────────────────────────────────
     DATA_PATH = Path(__file__).parent / "benchmark_summary.csv"
     if not DATA_PATH.exists():
         st.error("benchmark_summary.csv not found in the app directory!")
